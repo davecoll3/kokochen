@@ -10,6 +10,7 @@ Marien Wong Kwok Chuen is a freelance illustrator living in Metz, France. This p
   * [UX and UI](#ux-and-ui)
     * [Research](#research)
     * [Owner Goals](#owner-goals)
+    * [User Stories](#user-stories)
     * [User Requirments and Expectations](#user-requirments-and-expectations)
     * [Design](#design)
         * [Color Scheme](#color-scheme)
@@ -54,6 +55,22 @@ Reasearch for the creation of this site was carried out by searching online for 
 
 &nbsp;
 
+## User Stories
+
+### First Time Visitor
+
+    * As a first time user, I want to understand the main purpose of the site.
+    * As a first time user, I want relevant content that informs about the owner and their work.
+    * As a first time user, I want an easy means of contacting the site owner.
+
+### Returning Visitor
+
+    * As a returning user, I want to be easily able to locate and review images or information on the site.
+    * As a returning user, I want to be able to quickly contact the site owner.
+    * As a returning user, I want to be able to quickly access the site owner's social media links.
+
+&nbsp;
+
 ## User Requirements and Expectations
 
 ### Requirements
@@ -62,9 +79,7 @@ Reasearch for the creation of this site was carried out by searching online for 
     * A reactive site that is user friendly and well presented on all types of device and screen sizes.
     * An easy and logical means of navigation throughout the site on all devices.
     * Adequate levels of color contrast across the site that presents content in an accessable and easy to read manner.
-    * Relevant content that informs the user about the owner and their work.
     * An appealing presentation of the owner's origional illustrations.
-    * An easy means of contacting the owner.
     * Links to the owner's social media sites and other material of interest.
 
 ### Expectations
