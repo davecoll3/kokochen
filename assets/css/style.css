@@ -6,7 +6,46 @@
   border: 0;
 }
 
-/* ----------------------------------------Footer */
+body {
+  font-family: 'Barlow';
+  font-weight: 400;
+}
+
+/* Header Styling */
+
+.masthead {
+  padding-top: 4rem;
+  padding-bottom: 14rem;
+  background: url("/assets/images/background.jpeg") bottom no-repeat;
+  background-size: cover;
+}
+
+.masthead .masthead-heading {
+  font-size: 2.75rem;
+  line-height: 2.75rem;
+}
+.masthead .masthead-subheading {
+  font-size: 1.25rem;
+}
+.masthead .masthead-avatar {
+  width: 16rem;
+  border-radius: 50%;
+}
+
+@media (min-width: 992px) {
+  .masthead {
+    padding-top: 4rem;
+    padding-bottom: 14rem;
+  }
+  .masthead .masthead-heading {
+    font-size: 4rem;
+    line-height: 3.5rem;
+  }
+  .masthead .masthead-subheading {
+    font-size: 1.5rem;
+  }
+  
+/* Footer Styling */
 
 footer {
   position: fixed;
