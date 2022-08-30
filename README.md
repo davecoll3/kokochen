@@ -94,6 +94,9 @@ Reasearch for the creation of this site was carried out by searching online for 
 
 ### Color Scheme
 ### Fonts
+
+  * The Google font of Barlow was chosen as it closely resembles font use on other promotional work by the site owner.
+  
 ### Imagery
 ### Layout
 
@@ -200,6 +203,9 @@ You should also mention in this section any interesting bugs or problems you dis
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 &nbsp;
+
+  * Added bootstrap link and tested for functionality.
+  * Added font awesome link and tested for functionality.
 
 * ## Manual Testing 
 
