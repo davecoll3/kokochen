@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&display=swap");
 
 * {
   margin: 0;
@@ -6,72 +6,57 @@
   border: 0;
 }
 
+html {
+  height: 100%;
+}
+
 body {
-  font-family: 'Barlow';
-  font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
 }
 
-/* Header Styling */
+/* ----------------------------------------Footer */
 
-.masthead {
-  padding-top: 4rem;
-  padding-bottom: 14rem;
-  background: url("/assets/images/background.jpeg") bottom no-repeat;
-  background-size: cover;
+.content {
+  background-color: #e3f2fd;
+  flex: 1;
+  padding: 20px;
 }
-
-.masthead .masthead-heading {
-  font-size: 2.75rem;
-  line-height: 2.75rem;
-}
-.masthead .masthead-subheading {
-  font-size: 1.25rem;
-}
-.masthead .masthead-avatar {
-  width: 16rem;
-  border-radius: 50%;
-}
-
-@media (min-width: 992px) {
-  .masthead {
-    padding-top: 4rem;
-    padding-bottom: 14rem;
-  }
-  .masthead .masthead-heading {
-    font-size: 4rem;
-    line-height: 3.5rem;
-  }
-  .masthead .masthead-subheading {
-    font-size: 1.5rem;
-  }
-  
-/* Footer Styling */
 
 footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
-
-.social-networks {
+  background-color: #f3e5f5;
   text-align: center;
-  margin: 0;
+  padding-top: 20px;
+  border-top: 20px;
+  margin-top: 20px;
 }
 
 .social-networks li {
   display: inline;
+  margin: 0;
 }
 
-.social-networks i {
+.social-networks li a i {
   font-size: 160%;
   margin: 1%;
   padding: 2%;
   color: #777;
+  /*
+  transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  */
+}
+
+.social-networks li a i:hover {
+  color: #515151;
 }
 
 .copyright {
   height: 25px;
   background-color: #ccc;
   color: #777;
-  text-align: center;}
+  text-align: center;
+}
