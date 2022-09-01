@@ -11,16 +11,131 @@ html {
 }
 
 body {
+  font-family: 'Barlow', sans-serif;
   display: flex;
   flex-direction: column;
   min-height: 100%;
 }
 
-/* ----------------------------------------Footer */
+/* ---Callout--- */
+
+.callout-container {
+  height: 100vh;
+
+  background: url("/assets/images/background.jpeg") no-repeat bottom center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.jumbotron{
+  background-color: transparent;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+/* styer hr
+hr {}
+*/
+@media (max-width:480px) {  
+  .callout {
+    padding: 20px;
+  }
+
+  hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .avatar {
+      max-width: 280px;
+      max-height: 280px;
+      margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .callout {
+    padding: 20px;
+  }
+
+  hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .avatar {
+      max-width: 310px;
+      max-height: 310px;
+      margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .callout {
+    padding: 20px;
+  }
+
+  hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .avatar {
+      max-width: 330px;
+      max-height: 330px;
+      margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .callout {
+    padding: 20px;
+  }
+
+  hr {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+
+  .avatar {
+      max-width: 340px;
+      max-height: 340px;
+      margin-bottom: 20px;
+  }
+}
+
+@media (min-width:1201px) {
+  .callout {
+    padding: 20px;
+  }
+
+  hr {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+
+  .avatar {
+      max-width: 360px;
+      max-height: 360px;
+      margin-bottom: 20px;
+  }
+}
+
+/* ---About Me--- */
+
+.about-me-container {}
+
+/* ---Footer--- */
 
 .content {
-  background-color: #e3f2fd;
-  flex: 1;
+
   padding: 20px;
 }
 
@@ -37,20 +152,14 @@ footer {
   margin: 0;
 }
 
-.social-networks li a i {
+.social-networks i {
   font-size: 160%;
   margin: 1%;
   padding: 2%;
   color: #777;
-  /*
-  transition: all 0.35s ease-in-out;
-  -moz-transition: all 0.35s ease-in-out;
-  -webkit-transition: all 0.35s ease-in-out;
-  -o-transition: all 0.35s ease-in-out;
-  */
 }
 
-.social-networks li a i:hover {
+.social-networks i:hover {
   color: #515151;
 }
 
