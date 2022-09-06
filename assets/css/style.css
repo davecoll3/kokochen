@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&display=swap');
 
 * {
   margin: 0;
@@ -12,13 +12,10 @@ html {
 
 body {
   font-family: 'Barlow', sans-serif;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
   min-height: 100%;
 }
 
-/* ---Header--- */
+/* ---- Header ---- */
 
 hr {
   width: 40%;
@@ -27,14 +24,16 @@ hr {
   border-top: 10px;
   border-bottom: 10px;
   border-radius: 10px;
-  background-color: black;
+  background-color: #000;
 }
 
-/* ---Callout--- */
+/* ---- Header End ---- */
+
+
+/* ---- Callout Banner ---- */
 
 .callout-container {
   height: 100vh;
-  /*position: relative;*/
 
   background: url("/assets/images/background.jpeg") no-repeat bottom center;
   -webkit-background-size: cover;
@@ -49,7 +48,6 @@ hr {
 
 .callout {
   background-color: transparent;
-  /*position: absolute;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,17 +64,22 @@ hr {
 
 .callout h1 {
   font-size: 7vmin;
+  font-weight: 700;
   margin: 1vmin;
 }
 
 .callout h3 {
   font-size: 5vmin;
+  font-weight: 500;
   margin: 1vmin;
 }
 
 .callout hr {
-  background-color: white;
+  background-color: #fff;
 }
+
+/* ---- Callout Banner End ---- */
+
 
 /* ---------TEST-----------------------------
 
@@ -206,44 +209,81 @@ hr {
 /* ---------TEST-------------------------------------*/
 
 
-/* ---About Me--- */
+/* ---- About Me Section ---- */
 
-.about-me-container {}
-
-/* ---Footer--- */
-
-.content {
-
-  padding: 20px;
+h1 {
+  font-size: 7vmin;
+  font-weight: 700;
+  margin: 1vmin;
 }
 
-footer {
-  background-color: #f3e5f5;
+h2 {
+font-size: 6vmin;
+font-weight: 600;
+margin: 1vmin;
+}
+
+h3 {
+font-size: 5vmin;
+font-weight: 500;
+margin: 1vmin;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  padding-top: 20px;
-  border-top: 20px;
-  margin-top: 20px;
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.main-content p {
+  font-size: 18px;
+  font-weight: 400;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+/* ---- About Me Section End ---- */
+
+
+/* ---- Footer ---- */
+
+footer {
+  /* background color to be removed before publishing */
+  background-color: #d8bfd8;
+  /* background color to be removed before publishing */
+  text-align: center;
+}
+
+.social-networks ul {
+  margin: 0;
 }
 
 .social-networks li {
   display: inline;
-  margin: 0;
 }
 
 .social-networks i {
   font-size: 160%;
-  margin: 1%;
-  padding: 2%;
-  color: #777;
+  margin: 0;
+  padding: 3%;
+  color: #708090;
 }
 
 .social-networks i:hover {
-  color: #515151;
+  color: #696969;
 }
 
 .copyright {
-  height: 25px;
-  background-color: #ccc;
+  height: 24px;
+  background-color: #d3d3d3;
   color: #777;
   text-align: center;
+  font-weight: 400;
+  font-size: 14px;
 }
+
+/* ---- Footer End---- */
