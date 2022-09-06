@@ -12,15 +12,47 @@ html {
 
 body {
   font-family: 'Barlow', sans-serif;
+  display: flex;
+  flex-direction: column;
   min-height: 100%;
 }
 
 /* ---- Header ---- */
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 7vmin;
+  font-weight: 700;
+  margin: 1vmin;
+}
+
+h2 {
+  font-size: 6vmin;
+  font-weight: 600;
+  margin: 1vmin;
+}
+
+h3 {
+  font-size: 5vmin;
+  font-weight: 500;
+  margin: 1vmin;
+}
+
+h4 {
+  font-size: 4vmin;
+  font-weight: 500;
+  margin: 1vmin;
+}
 
 hr {
-  width: 40%;
+  width: 40vmin;
   height: 3px;
-  margin: auto;
+  margin: 1.25vmin;
   border-top: 10px;
   border-bottom: 10px;
   border-radius: 10px;
@@ -52,7 +84,7 @@ hr {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 7vmin;
+  padding-top: 6vmin;
 }
 
 .avatar {
@@ -76,158 +108,13 @@ hr {
 
 .callout hr {
   background-color: #fff;
+  margin: 1.25vmin;
 }
 
 /* ---- Callout Banner End ---- */
 
 
-/* ---------TEST-----------------------------
-
-@media (max-width:480px) {  
-  .callout-container {
-    height: 600px;
-  }
-
-  .callout {
-    padding: 20px;
-  }
-
-  .avatar {
-    max-width: 70%;
-    max-height: 60%;
-    margin: 10px;
-  }
-
-  h1 {
-    font-size: 6vw;
-  }
-  
-  h3 {
-    font-size: 6vw;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-  .callout-container {
-    height: 90vh;
-  }
-
-  .callout {
-    padding: 20px;
-  }
-
-  .callout-container {
-    height: 800px;
-  }
-
-  .avatar {
-    max-width: 50%;
-    max-height: 50%;
-    margin: 10px;
-  }
-
-  h1 {
-    font-size: 6vw;
-  }
-  
-  h3 {
-    font-size: 6vw;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .callout-container {
-    height: 600px;
-  }
-
-  .callout {
-    padding: 20px;
-  }
-
-  .avatar {
-    max-width: 40%;
-    max-height: 60%;
-    margin: 10px;
-  }
-
-  h1 {
-    font-size: 6vw;
-  }
-  
-  h3 {
-    font-size: 6vw;
-  }
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-  .callout-container {
-    height: 600px;
-  }
-
-  .callout {
-    padding: 20px;
-  }
-
-  .avatar {
-    max-width: 30%;
-    max-height: 60%;
-    margin: 10px;
-  }
-
-  h1 {
-    font-size: 6vw;
-  }
-  
-  h3 {
-    font-size: 6vw;
-  }
-}
-
-@media (min-width:1201px) {
-  .callout-container {
-    height: 600px;
-  }
-  
-  .callout {
-    padding: 20px;
-  }
-
-  .avatar {
-    max-width: 70%;
-    max-height: 60%;
-    margin: 10px;
-  }
-
-  h1 {
-    font-size: 6vw;
-  }
-  
-  h3 {
-    font-size: 6vw;
-  }
-}
-/* ---------TEST-------------------------------------*/
-
-
-/* ---- About Me Section ---- */
-
-h1 {
-  font-size: 7vmin;
-  font-weight: 700;
-  margin: 1vmin;
-}
-
-h2 {
-font-size: 6vmin;
-font-weight: 600;
-margin: 1vmin;
-}
-
-h3 {
-font-size: 5vmin;
-font-weight: 500;
-margin: 1vmin;
-}
+/* ---- Main Content ---- */
 
 .main-content {
   display: flex;
@@ -246,16 +133,44 @@ margin: 1vmin;
   margin: 0;
 }
 
-/* ---- About Me Section End ---- */
+/* ---- Main Content End ---- */
+
+
+/* ---- Form ---- */
+
+.form {
+  color: #fff;
+  background: url("/assets/images/contact_bg.jpeg") no-repeat bottom center;
+  background-size: cover;
+  margin-top: 10px;
+}
+
+.center-form {
+  margin: 0 auto;
+  max-width: 75%;
+}
+
+.center-form, input, textarea {
+  margin: 5px;
+}
+
+button[type="submit"] {
+  margin: 10px;
+  color: #fff;
+  background-color: #708090;
+}
+
+/* ---- Form End ---- */
 
 
 /* ---- Footer ---- */
 
 footer {
-  /* background color to be removed before publishing */
+  /* background color to be removed before publishing 
   background-color: #d8bfd8;
   /* background color to be removed before publishing */
   text-align: center;
+  margin-top: auto;
 }
 
 .social-networks ul {
@@ -287,3 +202,73 @@ footer {
 }
 
 /* ---- Footer End---- */
+
+
+/* ---- Media Queries ---- */
+
+@media (max-width:480px) {
+  .form {
+    height: 80vmax;
+    padding: 30px;
+  }
+  
+  .center-form {
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 90%;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+  .form {
+    height: 80vmax;
+    padding: 30px;
+  }
+  
+  .center-form {
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .form {
+    height: 75vmax;
+    padding: 30px;
+  }
+  
+  .center-form {
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1200px) {
+  .form {
+    height: 75vmin;
+    padding: 30px;
+  }
+  
+  .center-form {
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form {
+    height: 75vmin;
+    padding: 30px;
+  }
+  
+  .center-form {
+    min-height: 240px;
+    margin: 0 auto;
+    max-width: 50%;
+  }
+} 
+
+/* ---- Media Queries End ---- */

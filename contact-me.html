@@ -46,17 +46,34 @@
     </nav>
     <!---- Nav Bar End ---->
 
-    <!---- Main Content ---->
-    <div class="main-content">
-      <header>
-        <h1>Gallery</h1>
-      </header>
+    <!---- Header ---->      
+    <header>        
+      <h1>Contact Me</h1>
+      <hr class="block-divider">
+      <h4>Available for commissions and contracts</h4>   
+    </header>
+    <!---- Header End ---->
 
-      <section>
+    <!---- Form ---->
+    <div class="form">
+
+      <section class="container-fluid">
+        <div class="row bg-color-contact">
+          <div class="col center-form">              
+            <form>
+              <input type="text" name="name" id="full-name" class="form-control" placeholder="Name" required />
+              <input type="email" name="email" id="email-address" class="form-control" placeholder="Email" required />
+              <textarea rows="5" name="project-summary" id="project-summary" class="form-control" placeholder="Project description" required></textarea>
+              <div class="form-row text-center">
+                <button type="submit" class="btn btn-secondary"><strong>Send</strong></button>
+              </div>
+            </form>
+          </div>
+        </div>
 
       </section>
     </div>
-    <!---- Main Content End---->
+    <!---- Form End---->
 
     <!---- Footer ---->
     <footer>
