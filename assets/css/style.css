@@ -22,7 +22,7 @@ body {
 
 hr {
   width: 40%;
-  height: 5px;
+  height: 3px;
   margin: auto;
   border-top: 10px;
   border-bottom: 10px;
@@ -33,7 +33,7 @@ hr {
 /* ---Callout--- */
 
 .callout-container {
-  height: 800px;
+  height: 100vh;
   /*position: relative;*/
 
   background: url("/assets/images/background.jpeg") no-repeat bottom center;
@@ -47,36 +47,38 @@ hr {
   justify-content: center;
 }
 
-.callout{
+.callout {
   background-color: transparent;
   /*position: absolute;*/
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-top: 7vmin;
 }
 
 .avatar {
-  max-width: 400px;
-  max-height: 400px;
+  width: 40vmin;
+  height: 40vmin;
   border-radius: 50%;
+  margin-bottom: 2vmin;
 }
 
-
-/*h1 {
-  font-size: 8vw;
+.callout h1 {
+  font-size: 7vmin;
+  margin: 1vmin;
 }
 
-h3 {
-  font-size: 8vw;
-}*/
-
+.callout h3 {
+  font-size: 5vmin;
+  margin: 1vmin;
+}
 
 .callout hr {
   background-color: white;
 }
 
-/* ---------TEST-----------*//* ---------TEST-----------*//* ---------TEST-----------*/
+/* ---------TEST-----------------------------
 
 @media (max-width:480px) {  
   .callout-container {
@@ -201,78 +203,8 @@ h3 {
     font-size: 6vw;
   }
 }
-/* ---------TEST-----------*//* ---------TEST-----------*//* ---------TEST-----------*/
+/* ---------TEST-------------------------------------*/
 
-/*
-@media (max-width:480px) {  
-  
-  .callout {
-    padding: 20px;
-  }
-
-  .avatar {
-      max-width: 280px;
-      max-height: 280px;
-      margin-bottom: 10px;
-  }
-}
-
-@media (min-width: 481px) and (max-width: 768px) {
-  .callout {
-    padding: 20px;
-  }
-
-  .avatar {
-      max-width: 310px;
-      max-height: 310px;
-      margin-bottom: 10px;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 1024px) {
-  .callout {
-    padding: 20px;
-  }
-
-  .avatar {
-      max-width: 330px;
-      max-height: 330px;
-      margin-bottom: 20px;
-  }
-}
-
-.callout h1 {
-  padding: 10px;
-}
-
-.callout h3 {
-  padding: 10px;
-}
-
-@media (min-width: 1025px) and (max-width: 1200px) {
-  .callout {
-    padding: 20px;
-  }
-
-  .avatar {
-      max-width: 340px;
-      max-height: 340px;
-      margin-bottom: 20px;
-  }
-}
-
-@media (min-width:1201px) {
-  .callout {
-    padding: 20px;
-  }
-
-  .avatar {
-      max-width: 360px;
-      max-height: 360px;
-      margin-bottom: 20px;
-  }
-}
-*/
 
 /* ---About Me--- */
 
