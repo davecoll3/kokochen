@@ -36,26 +36,20 @@ header {
   align-items: center;
 }
 
-h1 {
-  font-size: 7vmin;
-  font-weight: 700;
-  margin: 1vmin;
-}
-
 h2 {
-  font-size: 6vmin;
+  font-size: 36px;
   font-weight: 600;
   margin: 1vmin;
 }
 
-h3 {
-  font-size: 5vmin;
-  font-weight: 500;
+h4 {
+  font-size: 27px;
+  font-weight: 400;
   margin: 1vmin;
 }
 
-h4 {
-  font-size: 3vmin;
+h5 {
+  text-align: center;
   font-weight: 400;
   margin: 1vmin;
 }
@@ -139,11 +133,20 @@ MAIN CONTENT
   padding: 10px;
 }
 
+.main-content h4 {
+  padding-bottom: 20px;
+}
+
 .main-content p {
   font-size: 18px;
   font-weight: 400;
-  padding: 10px 0px;
+  padding: 10px 0;
   margin: 0;
+}
+
+.main-content img {
+  width: 95%;
+  padding-top: 10px;
 }
 
 /* ==========
@@ -257,13 +260,14 @@ MEDIA QUERIES
   .center-form {
     min-height: 240px;
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 100%;
   }
 
   /* Main Content */
   .main-content p {
     width: 90%;
   }
+
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
@@ -283,9 +287,19 @@ MEDIA QUERIES
   .main-content p {
     width: 85%;
   }
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  /* Header */
+  h2 {
+    font-size: 40px;
+  }
+  
+  h4 {
+    font-size: 30px;
+  }
+
   /* Form */
   .form {
     height: 75vmax;
@@ -305,6 +319,16 @@ MEDIA QUERIES
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
+  /* Header */
+  h2 {
+    font-size: 40px;
+  }
+  
+  h4 {
+    font-size: 30px;
+  }
+
+
   /* Form */
   .form {
     height: 75vmin;
@@ -324,6 +348,15 @@ MEDIA QUERIES
 }
 
 @media (min-width: 1200px) {
+  /* Header */
+  h2 {
+    font-size: 44px;
+  }
+  
+  h4 {
+    font-size: 33px;
+  }
+
   /* Form */
   .form {
     height: 75vmin;
