@@ -17,6 +17,10 @@ body {
   min-height: 100%;
 }
 
+ul {
+  list-style: none;
+}
+
 /* ---- Header ---- */
 header {
   display: flex;
@@ -67,7 +71,7 @@ hr {
 .callout-container {
   height: 100vh;
 
-  background: url("/assets/images/background.jpeg") no-repeat bottom center;
+  background: url("/assets/images/bg_callout.jpeg") no-repeat bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -136,11 +140,43 @@ hr {
 /* ---- Main Content End ---- */
 
 
+/* ---- Gallery ---- */
+
+/***************************************************************************************
+*    Title: How to create a responsive image gallery with CSS flexbox
+*    Author: Ibadehin Mojeed
+*    Date: 30 May 2022
+*    Availability: https://blog.logrocket.com/how-create-responsive-image-gallery-css-flexbox/
+*
+***************************************************************************************/
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.image-gallery li {
+  flex-basis: 350px;
+}
+
+.image-gallery li img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+/* ---- Gallery End ---- */
+
+
 /* ---- Form ---- */
 
 .form {
   color: #fff;
-  background: url("/assets/images/contact_bg.jpeg") no-repeat bottom center;
+  background: url("/assets/images/bg_form.jpeg") no-repeat bottom center;
   background-size: cover;
   margin-top: 10px;
 }
