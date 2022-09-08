@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700&display=swap');
 
+/* ==========
+GENERAL
+========== */
+
 * {
   margin: 0;
   padding: 0;
@@ -21,7 +25,10 @@ ul {
   list-style: none;
 }
 
-/* ---- Header ---- */
+/* ==========
+HEADER
+========== */
+
 header {
   display: flex;
   flex-direction: column;
@@ -48,8 +55,8 @@ h3 {
 }
 
 h4 {
-  font-size: 4vmin;
-  font-weight: 500;
+  font-size: 3vmin;
+  font-weight: 400;
   margin: 1vmin;
 }
 
@@ -63,15 +70,18 @@ hr {
   background-color: #000;
 }
 
-/* ---- Header End ---- */
+#gallery-heading {
+  margin-bottom: 3%;
+}
 
-
-/* ---- Callout Banner ---- */
+/* ==========
+CALLOUT BANNER
+========== */
 
 .callout-container {
   height: 100vh;
 
-  background: url("/assets/images/bg_callout.jpeg") no-repeat bottom center;
+  background: url("/assets/images/background-images/bg_callout.jpeg") no-repeat bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -115,10 +125,9 @@ hr {
   margin: 1.25vmin;
 }
 
-/* ---- Callout Banner End ---- */
-
-
-/* ---- Main Content ---- */
+/* ==========
+MAIN CONTENT
+========== */
 
 .main-content {
   display: flex;
@@ -133,14 +142,13 @@ hr {
 .main-content p {
   font-size: 18px;
   font-weight: 400;
-  padding: 10px 20px;
+  padding: 10px 0px;
   margin: 0;
 }
 
-/* ---- Main Content End ---- */
-
-
-/* ---- Gallery ---- */
+/* ==========
+GALLERY
+========== */
 
 /***************************************************************************************
 *    Title: How to create a responsive image gallery with CSS flexbox
@@ -169,14 +177,13 @@ hr {
   border-radius: 5px;
 }
 
-/* ---- Gallery End ---- */
-
-
-/* ---- Form ---- */
+/* ==========
+FORM
+========== */
 
 .form {
   color: #fff;
-  background: url("/assets/images/bg_form.jpeg") no-repeat bottom center;
+  background: url("/assets/images/background-images/bg_form.jpeg") no-repeat bottom center;
   background-size: cover;
   margin-top: 10px;
 }
@@ -196,10 +203,9 @@ button[type="submit"] {
   background-color: #708090;
 }
 
-/* ---- Form End ---- */
-
-
-/* ---- Footer ---- */
+/* ==========
+FOOTER
+========== */
 
 footer {
   /* background color to be removed before publishing 
@@ -237,12 +243,12 @@ footer {
   font-size: 14px;
 }
 
-/* ---- Footer End---- */
-
-
-/* ---- Media Queries ---- */
+/* ==========
+MEDIA QUERIES
+========== */
 
 @media (max-width:480px) {
+  /* Form */
   .form {
     height: 80vmax;
     padding: 30px;
@@ -253,9 +259,15 @@ footer {
     margin: 0 auto;
     max-width: 90%;
   }
+
+  /* Main Content */
+  .main-content p {
+    width: 90%;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+  /* Form */
   .form {
     height: 80vmax;
     padding: 30px;
@@ -266,9 +278,15 @@ footer {
     margin: 0 auto;
     max-width: 80%;
   }
+
+  /* Main Content */
+  .main-content p {
+    width: 85%;
+  }
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  /* Form */
   .form {
     height: 75vmax;
     padding: 30px;
@@ -279,9 +297,15 @@ footer {
     margin: 0 auto;
     max-width: 60%;
   }
+
+  /* Main Content */
+  .main-content p {
+    width: 80%;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1200px) {
+  /* Form */
   .form {
     height: 75vmin;
     padding: 30px;
@@ -291,10 +315,16 @@ footer {
     min-height: 240px;
     margin: 0 auto;
     max-width: 50%;
+  }
+
+  /* Main Content */
+  .main-content p {
+    width: 75%;
   }
 }
 
 @media (min-width: 1200px) {
+  /* Form */
   .form {
     height: 75vmin;
     padding: 30px;
@@ -305,6 +335,9 @@ footer {
     margin: 0 auto;
     max-width: 50%;
   }
-} 
 
-/* ---- Media Queries End ---- */
+  /* Main Content */
+  .main-content p {
+    width: 70%;
+  } 
+}
