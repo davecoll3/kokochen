@@ -75,7 +75,7 @@ CALLOUT BANNER
 .callout-container {
   height: 100vh;
 
-  background: url("/assets/images/background-images/bg_callout.jpeg") no-repeat bottom center;
+  background: url("../images/background-images/bg_callout.jpeg") no-repeat bottom center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -186,7 +186,7 @@ FORM
 
 .form {
   color: #fff;
-  background: url("/assets/images/background-images/bg_form.jpeg") no-repeat bottom center;
+  background: url("../images/background-images/bg_form.jpeg") no-repeat bottom center;
   background-size: cover;
   margin-top: 10px;
 }
