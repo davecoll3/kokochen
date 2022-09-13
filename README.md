@@ -51,9 +51,9 @@ Reasearch for the creation of this site was carried out by searching online for 
 
 ## Owner Goals
 
-    * Showcase illustrations and previous work.
-    * To receive new commissions.
+    * Showcase illustrations and examples of previous work.
     * To generate interest in their work.
+    * To receive new commissions.
 
 &nbsp;
 
@@ -131,50 +131,51 @@ In this section, you should go over the different parts of your project, and des
 
     - __Navigation Bar__
 
-    - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+    - Featured on all four pages, the full responsive navigation bar includes links to the Home, My Work, Gallery and Sign Up pages and is identical in each page to allow for easy navigation.
     - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+    - The navigation menu will collapse into a burger icon on mobile screens allowing for a more user friendly and asthecially pleasing experience.
 
-    ![Nav Bar](marine_wong_kwok_chuen_nav.png)
+    ![Nav Bar](/readme-files/images/nav-bar.png)
 
-    - __The landing page image__
+    - __Callout Banner__
 
     - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
     - This section introduces the user to Love Running with an eye catching animation to grab their attention
 
-    ![Landing Page](marine_wong_kwok_chuen_landing.png)
+    ![Landing Page](/readme-files/images/callout-banner.png)
 
     - __About Me Section__
 
     - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
     - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
-    ![About Me](marine_wong_kwok_chuen_about_me_section.png)
+    ![About Me](/readme-files/images/about-me.png)
 
     - __The Footer__ 
 
     - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
     - The footer is valuable to the user as it encourages them to keep connected via social media
 
-    ![Footer](marine_wong_kwok_chuen_footer.png)
+    ![Footer](/readme-files/images/footer.png)
 
     - __The My Work Page__
 
     - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-    ![My Work](marine_wong_kwok_chuen_my_work.png)
+    ![My Work](/readme-files/images/my-work.png)
 
     - __Gallery__
 
     - The gallery will provide the user with supporting images to see what the meet ups look like. 
     - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-    ![Gallery](marine_wong_kwok_chuen_gallery.png)
+    ![Gallery](/readme-files/images/gallery.png)
 
     - __Contact Me__
 
     - The contact me page will provide a form for the user to submit a message in order to make enquiries or request a commission. 
 
-    ![Contact Me](marine_wong_kwok_chuen_contact_me.png)
+    ![Contact Me](/readme-files/images/contact-me.png)
 
     For some/all of your features, you may choose to reference the specific project files that implement them.
 
