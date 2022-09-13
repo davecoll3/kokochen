@@ -2,7 +2,9 @@
 
 Marien Wong Kwok Chuen is a freelance illustrator living in Metz, France. This portfolio site aims to showcase Marine's illustrations and examples of her work. The site will be targreted towards individuals and organisations who have a need for a talanted freelance illustrator. It will clearly demonstrate a variety of origional illustrations produced to date along with examples of illustrations used in previously commissioned work. The site will also be a useful means to contact Marine in order to commission new work.
 
-![Responsive Mockup](marine_wong_kwok_chuen_mockup.png)
+&nbsp;
+
+![Responsive Mockup](/readme-files/images/am-i-responsive.png)
 
 &nbsp;
 
@@ -98,6 +100,10 @@ Reasearch for the creation of this site was carried out by searching online for 
   * The Google font of Barlow was chosen as it closely resembles font use on other promotional work by the site owner.
   
 ### Imagery
+
+  * All images used across the site are origional creations of the site owner.
+  * The background images are also origional creations of the site owner.
+
 ### Layout
 
 &nbsp;
@@ -107,11 +113,11 @@ Reasearch for the creation of this site was carried out by searching online for 
 Balsamiq Wireframes was used to create the wireframes for this site. 
 Wireframes for mobile, tablet, and desktop can be found below:
 
-### [Mobile Wireframe]()
+### [Mobile Wireframe](/readme-files/wireframes/mobile-device.pdf)
 
-### [Tablet Wireframe]()
+### [Tablet Wireframe](/readme-files/wireframes/tablet.pdf)
 
-### [Desktop Wireframe]()
+### [Desktop Wireframe](/readme-files/wireframes/desktop.pdf)
 
 &nbsp;
 

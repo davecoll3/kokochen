@@ -234,6 +234,10 @@ footer {
   color: #696969;
 }
 
+.social-networks a:hover {
+  text-decoration: none;
+}
+
 .copyright {
   height: 24px;
   background-color: #d3d3d3;
