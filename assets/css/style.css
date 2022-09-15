@@ -255,7 +255,7 @@ footer {
 .copyright {
   height: 24px;
   background-color: #d3d3d3;
-  color: #777;
+  color: #3f3f3f;
   text-align: center;
   font-weight: 400;
   font-size: 14px;
@@ -394,6 +394,6 @@ MEDIA QUERIES
 
   /* Back to Top Button */
   #to-top-btn i:hover {
-    color: hsla(210, 13%, 50%,.8)
+    color: hsla(210, 13%, 50%,.9)
   }
 }

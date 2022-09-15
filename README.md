@@ -2,6 +2,8 @@
 
 Marien Wong Kwok Chuen is a freelance illustrator living in Metz, France. This portfolio site aims to showcase Marine's illustrations and examples of her work. The site will be targreted towards individuals and organisations who have a need for a talanted freelance illustrator. It will clearly demonstrate a variety of origional illustrations produced to date along with examples of illustrations used in previously commissioned work. The site will also be a useful means to contact Marine in order to commission new work.
 
+The primary technologies used to form the basis of this website were the coding languages HTML5 and CSS3 which were complemented by use of the Bootstrap framework.
+
 &nbsp;
 
 ![Responsive Mockup](/readme-files/images/am-i-responsive.png)
@@ -51,9 +53,9 @@ Reasearch for the creation of this site was carried out by searching online for 
 
 ## Owner Goals
 
-    * Showcase illustrations and examples of previous work.
-    * To generate interest in their work.
-    * To receive new commissions.
+  * Showcase illustrations and examples of previous work.
+  * To generate interest in their work.
+  * To receive new commissions.
 
 &nbsp;
 
@@ -61,15 +63,15 @@ Reasearch for the creation of this site was carried out by searching online for 
 
 ### First Time Visitor
 
-    * As a first time user, I want to understand the main purpose of the site.
-    * As a first time user, I want relevant content that informs about the owner and their work.
-    * As a first time user, I want an easy means of contacting the site owner.
+  * As a first time user, I want to understand the main purpose of the site.
+  * As a first time user, I want relevant content that informs about the owner and their work.
+  * As a first time user, I want an easy means of contacting the site owner.
 
 ### Returning Visitor
 
-    * As a returning user, I want to be easily able to locate and review images or information on the site.
-    * As a returning user, I want to be able to quickly contact the site owner.
-    * As a returning user, I want to be able to quickly access the site owner's social media links.
+  * As a returning user, I want to be easily able to locate and review images or information on the site.
+  * As a returning user, I want to be able to quickly contact the site owner.
+  * As a returning user, I want to be able to quickly access the site owner's social media links.
 
 &nbsp;
 
@@ -77,40 +79,51 @@ Reasearch for the creation of this site was carried out by searching online for 
 
 ### Requirements
 
-    * Familar and intuitive design that negates any learning curve.
-    * A reactive site that is user friendly and well presented on all types of device and screen sizes.
-    * An easy and logical means of navigation throughout the site on all devices.
-    * Adequate levels of color contrast across the site that presents content in an accessable and easy to read manner.
-    * An appealing presentation of the owner's origional illustrations.
-    * Links to the owner's social media sites and other material of interest.
+  * Familar and intuitive design that negates any learning curve.
+  * A reactive site that is user friendly and well presented on all types of device and screen sizes.
+  * An easy and logical means of navigation throughout the site on all devices.
+  * Adequate levels of color contrast across the site that presents content in an accessable and easy to read manner.
+  * An appealing presentation of the owner's origional illustrations.
+  * Links to the owner's social media sites and other material of interest.
 
 ### Expectations
 
-    * Feedback when intereacting with page links allowing me to easily know where I am on the site and where I can go to.
-    * Feedback on the contact form to inform me when it has been completed and submitted correctly.
-    * When clicking on social media links, they should open in a seperate tab or window.
+  * Feedback when intereacting with page links allowing me to easily know where I am on the site and where I can go to.
+  * Feedback on the contact form to inform me when it has been completed and submitted correctly.
+  * When clicking on social media links, they should open in a seperate tab or window.
 
 &nbsp;
 
 ## Design
 
 ### Color Scheme
+
+* Various shades of grey (#777, #708090, #696969, #d3d3d3, #3f3f3f) were used across the site (nav bar, footer, scoll to top button) alongside black and white for the textual content. These somber colours were purposfully chosen to give the site a clean modern look while allowing the vibrant colours of the various illustrations to pop on the screen. The color contrast accessibility validator [a11y](https://color.a11y.com/) was used to verify that the colour contrast across the site adheared to the WCAG 2.1 Guidelines. 
+
 ### Fonts
 
-  * The Google font of Barlow was chosen as it closely resembles font use on other promotional work by the site owner.
+* The Google font of Barlow was chosen as it closely resembles font use on other promotional work by the site owner. Barlow is a slightly rounded, low-contract font which lends fits in with the clean modern look of the site.
   
 ### Imagery
 
-  * All images used across the site are origional creations of the site owner.
-  * The background images are also origional creations of the site owner.
+* All images used across the site, including background images, are origional creations of the site owner. The background images were used on the home page (callout banner) and contact me page (form) to provive a visually appealing backdrop to these pages, helping to highlight content contained within.
 
-### Layout
+### Structure
+
+* The information architecture type used for this site is the hierarchical tree structure. This common structure allows for simple navigation thoughout the site and allows for easy expansion of the site in the future. The use of the burger navagition icon, along with a floating return to top button, help to overcome the common issues with this structure on mobile devices. 
+
+<details>
+<summary>Site Map</summary>
+
+![Site Map](/readme-files/images/tree-structure.png)
+
+</details>
 
 &nbsp;
 
 ## Wireframes
 
-Balsamiq Wireframes was used to create the wireframes for this site. 
+* Balsamiq Wireframes was used to create the wireframes for this site. 
 Wireframes for mobile, tablet, and desktop can be found below:
 
 ### [Mobile Wireframe](/readme-files/wireframes/mobile-device.pdf)
@@ -125,75 +138,84 @@ Wireframes for mobile, tablet, and desktop can be found below:
 
 # Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+## Existing Features
 
-* ## Existing Features
+* Navigation Bar
 
-    - __Navigation Bar__
+  * Featured on all four pages, the full responsive navigation bar includes links to the Home, My Work, Gallery and Sign Up pages and is identical in each page to allow for easy navigation.
+  * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  * The users current location is indicated by white text in the menu list items with the other items in a muted shade of grey; menu items are also highlighted when hovering over them, adding a responsive element.
+  * The navigation menu will collapse into a burger icon on mobile screens allowing for a more user friendly and asthecially pleasing experience.
 
-    - Featured on all four pages, the full responsive navigation bar includes links to the Home, My Work, Gallery and Sign Up pages and is identical in each page to allow for easy navigation.
-    - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-    - The navigation menu will collapse into a burger icon on mobile screens allowing for a more user friendly and asthecially pleasing experience.
+  ![Nav Bar](/readme-files/images/nav-bar.png)
 
-    ![Nav Bar](/readme-files/images/nav-bar.png)
+* Callout Banner
 
-    - __Callout Banner__
+  * The callout banner serves to introduce the user to the site owner with an eye catching avatar and background image used to grab their attention.  
 
-    - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-    - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  ![Landing Page](/readme-files/images/callout-banner.png)
 
-    ![Landing Page](/readme-files/images/callout-banner.png)
+* About Me Section
 
-    - __About Me Section__
+  * The about me section will further introduce the user to the site owner, informing them of their skills and education background. 
 
-    - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-    - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  ![About Me](/readme-files/images/about-me.png)
 
-    ![About Me](/readme-files/images/about-me.png)
+* The Footer
 
-    - __The Footer__ 
+  * The footer section includes links to the relevant social media sites for the site owner; all links open to a new tab to allow easy navigation for the user.     * The footer is valuable to the user as it encourages them to keep connected via social media.
+  * There is also copyright information contained in the footer to remind the user that the site's content is not licence free.
 
-    - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-    - The footer is valuable to the user as it encourages them to keep connected via social media
+  ![Footer](/readme-files/images/footer.png)
 
-    ![Footer](/readme-files/images/footer.png)
+* The My Work Page
 
-    - __The My Work Page__
+  * This page will allow the user to see some examples of the work already created by the site owner by describing and showcasing a varied selection of their work.
 
-    - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
+  ![My Work](/readme-files/images/my-work.png)
 
-    ![My Work](/readme-files/images/my-work.png)
+* Gallery
 
-    - __Gallery__
+  * The gallery will provide the user with a variety of original illustrations created by the site owner.
+  * This section is valuable to the user as they will be able to clearly see the various illustration styles used by the site owner. 
 
-    - The gallery will provide the user with supporting images to see what the meet ups look like. 
-    - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  ![Gallery](/readme-files/images/gallery.png)
 
-    ![Gallery](/readme-files/images/gallery.png)
+* Contact Me
 
-    - __Contact Me__
+  * The contact me page will provide a form for the user to submit a message in order to make enquiries or request a commission. 
+  * The user will be asked to submit their name, email address, and a messge describing their proposal. 
 
-    - The contact me page will provide a form for the user to submit a message in order to make enquiries or request a commission. 
+  ![Contact Me](/readme-files/images/contact-me.png)
 
-    ![Contact Me](/readme-files/images/contact-me.png)
+* Back to Top Button
 
-    For some/all of your features, you may choose to reference the specific project files that implement them.
+  * A floating back to top button was used to allow the user an easy means of returning to the nav bar, this is especially important for mobile devices where the content is stretched vertcially.
 
-    In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+    ![Back to Top Button](/readme-files/images/back-to-top-btn.png)
 
-* ## Features to be Implemented in Future
+## Features to be Implemented in Future
 
-    - Adding an isotope filter to the gallery page once I have a better understanding of JavaScript. This will allow users to more easily view illustrations that share a common theme or style.
-    - An extra shop page that allows users to purchase items such as prints, cards and badges directly from the owner. 
-
-[//]: # (List technologies used to create site)
+  * Adding an isotope filter to the gallery page once I have a better understanding of JavaScript. This will allow users to more easily view illustrations that share a common theme or style.
+  * Additionally, I would like to use JavaScript to better control the positioning of the back to top button; having it fade in as you scroll down the page.
+  * An extra shop page that allows users to purchase items such as prints, cards and badges directly from the owner. 
 
 &nbsp;
 
 # Technologies Used
 
-* ## Languages
-* ## Frameworks and Libraries
+## Languages
+  * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+  * [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+## Frameworks and Libraries
+
+  * [Bootstrap](https://getbootstrap.com/docs/4.1/getting-started/introduction/)
+    * Bootstrap v4.1.3 was used to help style and implement Java elements to the site, namely on the nav bar. 
+  * [Font Awesome](https://fontawesome.com/)
+    * The Font Awesome v6.1.2 library was used to supply the social media icons, on the site footer, and the chevron icon used for the back to top button.
+  * [Google Fonts](https://fonts.google.com/)
+    * Google fonts was used to import the 'Barlow' font used throughout the site.
 
 [//]: # (Testing section to demonstrate testing completed)
 
@@ -214,19 +236,19 @@ If this section grows too long, you may want to split it off into a separate fil
   * Added bootstrap link and tested for functionality.
   * Added font awesome link and tested for functionality.
 
-* ## Manual Testing 
+## Manual Testing 
 
 &nbsp;
 
-* ## Additional Testing 
+## Additional Testing 
 
 &nbsp;
 
-* ## Resolved Bugs
+## Resolved Bugs
 
 &nbsp;
 
-* ## Validator Testing 
+## Validator Testing 
 
     - HTML
     - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
@@ -235,7 +257,7 @@ If this section grows too long, you may want to split it off into a separate fil
 
 &nbsp;
 
-* ## Unfixed Bugs
+## Unfixed Bugs
 
     You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
