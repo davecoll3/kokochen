@@ -226,28 +226,38 @@ Wireframes for mobile, tablet, and desktop can be found below:
 # Validation
 
 ## HTML
-The [W3C Markup Validation Service"](https://validator.w3.org/#validate_by_input) was used to validate the code.
+The [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input) was used to validate the code.
 All pages were succesfully validated with no errors or warnings.
 
 <details><summary>Home</summary>
-<img src="#" alt="Validation of Home page">
+<img src="readme-files/images/w3c-index.png" alt="Validation of Home page">
 </details>
 
 <details><summary>My Work</summary>
-<img src="#" alt="Validation of My Work page">
+<img src="readme-files/images/w3c-my-work.png" alt="Validation of My Work page">
 </details>
 
 <details><summary>Gallery</summary>
-<img src="#" alt="Validation of Gallery page">
+<img src="readme-files/images/w3c-gallery.png" alt="Validation of Gallery page">
 </details>
 
 <details><summary>Contact Me</summary>
-<img src="#" alt="Validation of Contact Me page">
+<img src="readme-files/images/w3c-contact-me.png" alt="Validation of Contact Me page">
 </details>
 
+&nbsp;
+
 ## CSS
-The [W3C CSS Validation Service"](https://jigsaw.w3.org/css-validator/#validate_by_uri) was used to validate the code.
-All pages were succesfully validated with no errors or warnings.
+The [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_uri) was used to validate the code.
+No errors were found but four warnings were highlighted; as these related to the imported google fonts style sheet and prefixes relating to different browsers, they are not of concern.
+
+<details><summary>CSS Validation</summary>
+<img src="readme-files/images/w3c-css.png" alt="Validation of CSS>
+</details>
+
+<details><summary>CSS Warnings</summary>
+<img src="readme-files/images/w3c-css-warnings.png" alt="CSS validation warnings">
+</details>
 
 &nbsp;
 
@@ -261,7 +271,50 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+* Navigation Bar
+  * The navigation bar is located at the top of the page and contains navigation links to all pages which are clearly visible in displays with a width of 576px or above. The user can easily identify which page they are on as it is highlighted in white text. The user is also provided with feedback when hovering over links to other pages as the text color changes to a lighter shade of grey when hovering over them. 
+  * When the display witdth is 575px or below it collapses into a burger icon. All navigation links drop down when the burger icon is clicked and, again, the current page is highlighted in white text.
+  * These elememts are familiar and require little to no learning curve to use.
+* Callout Banner
+  * The callout banner displays an avatar image of the site owner, their name, and their profession/service offered, in order to introduce the user to the owner and purpose of the site.
+  * The background image used is an illustration of the site owner and fills the device viewport; it is reactive to all screen sizes and orientations while maintaining contrast levels with the heading text.
+* About Me Section
+  * This section introduces the user to the site owner and is reactive to all screen sizes and orientations.
+* The Footer
+  * The footer is loacted at the bottom of the page and contains social media links and copyright information, it is reactive to all screen sizes and orientations.
+  * The icons for each social media link provide feedback to the user upon hover over as they change to a different shade of grey.
+  * Each of the social media links opens in a new page as per best practice and to ensure a good user experience.
+* The My Work Page
+  * The My Work page displays works created by the page owner and contains text and images all of which are reactive to all screen sizes and orientations.
+  * The images are displayed in a row on larger devices and drop down onto a second line when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in single file one on top of the other.
+* Gallery
+  * The gallery images are displayed in a rows of three on larger devices and change to rows of two when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in single file one on top of the other.
+* Contact Me
+  * The contact me page allowes the user to contact the site owner and is reactive to all screen sizes and orientations.
+  * All inputs on the form, contained on the contact me page, must be completed in order to be submitted; this includes a valid email address being input in the email field.
+  * The submit button icons provides feedback to users upon hover over as it changes to a different shade of grey.
+* Back to Top Button
+  * As the navbar is not fixed, a back to top button was added to allow the user to easily return to the nagvigation links at any stage. This is particularly useful on mobile devices, particularly on the My Work and Gallery pages, as it avoids the need for excessive scrolling.
+
+
+## Browser Compatability
+
+[LambdaTest](https://www.lambdatest.com/) was used to test the site across a number of browsers, including:
+
+  * Chrome
+  * Safari
+  * Edge
+  * Firefox
+  * Opera
+
 &nbsp;
+
+## Bugs
+
+  * Home page background contrast
+  * Avatar position
+  * Social Media Links - shading
+  * 
 
   * Added bootstrap link and tested for functionality.
   * Added font awesome link and tested for functionality.
