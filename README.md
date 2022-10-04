@@ -4,6 +4,8 @@ Marien Wong Kwok Chuen is a freelance illustrator living in Metz, France. This p
 
 The primary technologies used to form the basis of this website were the coding languages HTML5 and CSS3 which were complemented by use of the Bootstrap framework.
 
+[View the live site here](https://davecoll3.github.io/kokochen/index.html)
+
 &nbsp;
 
 ![Responsive Mockup](/readme-files/images/am-i-responsive.png)
@@ -218,6 +220,34 @@ Wireframes for mobile, tablet, and desktop can be found below:
     * Google fonts was used to import the 'Barlow' font used throughout the site.
 
 [//]: # (Testing section to demonstrate testing completed)
+
+&nbsp;
+
+# Validation
+
+## HTML
+The [W3C Markup Validation Service"](https://validator.w3.org/#validate_by_input) was used to validate the code.
+All pages were succesfully validated with no errors or warnings.
+
+<details><summary>Home</summary>
+<img src="#" alt="Validation of Home page">
+</details>
+
+<details><summary>My Work</summary>
+<img src="#" alt="Validation of My Work page">
+</details>
+
+<details><summary>Gallery</summary>
+<img src="#" alt="Validation of Gallery page">
+</details>
+
+<details><summary>Contact Me</summary>
+<img src="#" alt="Validation of Contact Me page">
+</details>
+
+## CSS
+The [W3C CSS Validation Service"](https://jigsaw.w3.org/css-validator/#validate_by_uri) was used to validate the code.
+All pages were succesfully validated with no errors or warnings.
 
 &nbsp;
 
