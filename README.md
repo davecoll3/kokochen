@@ -219,7 +219,16 @@ Wireframes for mobile, tablet, and desktop can be found below:
   * [Google Fonts](https://fonts.google.com/)
     * Google fonts was used to import the 'Barlow' font used throughout the site.
 
-[//]: # (Testing section to demonstrate testing completed)
+## Testing Tools
+  * [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
+    * xxx
+  * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_uri)
+    * xxx
+  * [a11y](https://color.a11y.com/)
+    * xxx
+  * [LambdaTest](https://www.lambdatest.com/)
+    * xxx 
+  * Performance???
 
 &nbsp;
 
@@ -269,10 +278,40 @@ In addition, you should mention in this section how your project looks and works
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
+&nbsp;
+
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
+## Color Contrast
 The color contrast accessibility validator [a11y](https://color.a11y.com/) was used to verify that the colour contrast across the site adheared to the WCAG 2.1 Guidelines.
 
+<details>
+<summary>Home Page</summary>
+
+![Index Page](/readme-files/images/index-contrast-validation.png)
+</details>
+
+<details>
+<summary>My Work Page</summary>
+
+![My Work Page](/readme-files/images/my-work-contrast-validation.png)
+</details>
+
+<details>
+<summary>Gallery Page</summary>
+
+![Gallery Page](/readme-files/images/gallery-contrast-validation.png)
+</details>
+
+<details>
+<summary>Contact Me Page</summary>
+
+![Contact Me Page](/readme-files/images/contact-me-contrast-validation.png)
+</details>
+
+&nbsp;
+
+## Manual Testing
 <details>
 <summary>Navigation Bar</summary>
 
@@ -357,6 +396,8 @@ The color contrast accessibility validator [a11y](https://color.a11y.com/) was u
 
 ### Footer Social Media Links
   When testing the social media links in the footer, it was noted that small black dots were appearing between the social media icons upon hover over. After unsuccessfully troubleshooting this problem, a post was placed on the slack project-milestone-1 page where user jo_ci highlighted that it was being caused by the < a > element. This element was the targeted with text-decoration: none; which resolved the issue. 
+
+&nbsp;
 
 ## Browser Compatability
 
