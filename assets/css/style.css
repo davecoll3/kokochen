@@ -150,7 +150,7 @@ MAIN CONTENT
 }
 
 .main-content a {
-  color: #708090;
+  color: #545454;
 }
 
 /* ==========
@@ -206,7 +206,7 @@ FORM
 button[type="submit"] {
   margin: 10px;
   color: #fff;
-  background-color: #708090;
+  background-color: #545454;
 }
 
 /* ==========
@@ -248,7 +248,7 @@ footer {
 }
 
 .social-networks i:hover {
-  color: #696969;
+  color: #545454;
 }
 
 .social-networks a:hover {

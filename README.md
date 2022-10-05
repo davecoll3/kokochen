@@ -100,7 +100,7 @@ Reasearch for the creation of this site was carried out by searching online for 
 
 ### Color Scheme
 
-* Various shades of grey (#777, #708090, #696969, #d3d3d3, #3f3f3f) were used across the site (nav bar, footer, scoll to top button) alongside black and white for the textual content. These somber colours were purposfully chosen to give the site a clean modern look while allowing the vibrant colours of the various illustrations to pop on the screen.
+* Various shades of grey ( #708090, #545454, #d3d3d3, #3f3f3f) were used across the site (nav bar, footer, scoll to top button) alongside black and white for the textual content. These somber colours were purposfully chosen to give the site a clean modern look while allowing the vibrant colours of the various illustrations to pop on the screen; all while adhearing to the WCAG 2.1 contrast guidelines.
 
 ### Fonts
 
