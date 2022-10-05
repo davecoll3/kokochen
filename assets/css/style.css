@@ -149,6 +149,9 @@ MAIN CONTENT
   padding-top: 10px;
 }
 
+.main-content a {
+  color: #708090;
+}
 
 /* ==========
 GALLERY

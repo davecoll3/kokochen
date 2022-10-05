@@ -100,7 +100,7 @@ Reasearch for the creation of this site was carried out by searching online for 
 
 ### Color Scheme
 
-* Various shades of grey (#777, #708090, #696969, #d3d3d3, #3f3f3f) were used across the site (nav bar, footer, scoll to top button) alongside black and white for the textual content. These somber colours were purposfully chosen to give the site a clean modern look while allowing the vibrant colours of the various illustrations to pop on the screen. The color contrast accessibility validator [a11y](https://color.a11y.com/) was used to verify that the colour contrast across the site adheared to the WCAG 2.1 Guidelines. 
+* Various shades of grey (#777, #708090, #696969, #d3d3d3, #3f3f3f) were used across the site (nav bar, footer, scoll to top button) alongside black and white for the textual content. These somber colours were purposfully chosen to give the site a clean modern look while allowing the vibrant colours of the various illustrations to pop on the screen.
 
 ### Fonts
 
@@ -149,52 +149,52 @@ Wireframes for mobile, tablet, and desktop can be found below:
   * The users current location is indicated by white text in the menu list items with the other items in a muted shade of grey; menu items are also highlighted when hovering over them, adding a responsive element.
   * The navigation menu will collapse into a burger icon on mobile screens allowing for a more user friendly and asthecially pleasing experience.
 
-  ![Nav Bar](/readme-files/images/nav-bar.png)
+    ![Nav Bar](/readme-files/images/nav-bar.png)
 
 * Callout Banner
 
   * The callout banner serves to introduce the user to the site owner with an eye catching avatar and background image used to grab their attention.  
 
-  ![Landing Page](/readme-files/images/callout-banner.png)
+    ![Landing Page](/readme-files/images/callout-banner.png)
 
 * About Me Section
 
   * The about me section will further introduce the user to the site owner, informing them of their skills and education background. 
 
-  ![About Me](/readme-files/images/about-me.png)
+    ![About Me](/readme-files/images/about-me.png)
 
 * The Footer
 
   * The footer section includes links to the relevant social media sites for the site owner; all links open to a new tab to allow easy navigation for the user.     * The footer is valuable to the user as it encourages them to keep connected via social media.
   * There is also copyright information contained in the footer to remind the user that the site's content is not licence free.
 
-  ![Footer](/readme-files/images/footer.png)
+    ![Footer](/readme-files/images/footer.png)
 
 * The My Work Page
 
   * This page will allow the user to see some examples of the work already created by the site owner by describing and showcasing a varied selection of their work.
 
-  ![My Work](/readme-files/images/my-work.png)
+    ![My Work](/readme-files/images/my-work.png)
 
 * Gallery
 
   * The gallery will provide the user with a variety of original illustrations created by the site owner.
   * This section is valuable to the user as they will be able to clearly see the various illustration styles used by the site owner. 
 
-  ![Gallery](/readme-files/images/gallery.png)
+    ![Gallery](/readme-files/images/gallery.png)
 
 * Contact Me
 
   * The contact me page will provide a form for the user to submit a message in order to make enquiries or request a commission. 
   * The user will be asked to submit their name, email address, and a messge describing their proposal. 
 
-  ![Contact Me](/readme-files/images/contact-me.png)
+    ![Contact Me](/readme-files/images/contact-me.png)
 
 * Back to Top Button
 
   * A floating back to top button was used to allow the user an easy means of returning to the nav bar, this is especially important for mobile devices where the content is stretched vertcially.
 
-    ![Back to Top Button](/readme-files/images/back-to-top-btn.png)
+     ![Back to Top Button](/readme-files/images/back-to-top-btn.png)
 
 ## Features to be Implemented in Future
 
@@ -271,31 +271,92 @@ You should also mention in this section any interesting bugs or problems you dis
 
 If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-* Navigation Bar
-  * The navigation bar is located at the top of the page and contains navigation links to all pages which are clearly visible in displays with a width of 576px or above. The user can easily identify which page they are on as it is highlighted in white text. The user is also provided with feedback when hovering over links to other pages as the text color changes to a lighter shade of grey when hovering over them. 
+The color contrast accessibility validator [a11y](https://color.a11y.com/) was used to verify that the colour contrast across the site adheared to the WCAG 2.1 Guidelines.
+
+<details>
+<summary>Navigation Bar</summary>
+
+  * The navigation bar is located at the top of the page and contains navigation links to all pages which are clearly visible in displays with a width of 576px or above. The user can easily identify which page they are on as it is highlighted in white text. The user is also provided with feedback when hovering over links to other pages as the text color changes to a lighter shade of grey when hovering over them.   
   * When the display witdth is 575px or below it collapses into a burger icon. All navigation links drop down when the burger icon is clicked and, again, the current page is highlighted in white text.
   * These elememts are familiar and require little to no learning curve to use.
-* Callout Banner
+
+    ![Nav Bar](/readme-files/testing/navbar-testing.gif)
+</details>
+
+<details>
+<summary>Callout Banner</summary>
+
   * The callout banner displays an avatar image of the site owner, their name, and their profession/service offered, in order to introduce the user to the owner and purpose of the site.
   * The background image used is an illustration of the site owner and fills the device viewport; it is reactive to all screen sizes and orientations while maintaining contrast levels with the heading text.
-* About Me Section
+
+    ![Callout Banner](/readme-files/testing/callout-testing.gif)
+</details>
+
+<details>
+<summary>About Me Section</summary>
+
   * This section introduces the user to the site owner and is reactive to all screen sizes and orientations.
-* The Footer
+
+    ![About Me](/readme-files/testing/about-me-testing.gif)
+</details>
+
+<details>
+<summary>Footer</summary>
+
   * The footer is loacted at the bottom of the page and contains social media links and copyright information, it is reactive to all screen sizes and orientations.
   * The icons for each social media link provide feedback to the user upon hover over as they change to a different shade of grey.
   * Each of the social media links opens in a new page as per best practice and to ensure a good user experience.
-* The My Work Page
+
+    ![Footer](/readme-files/testing/footer-testing.gif)
+</details>
+
+<details>
+<summary>My Work Page</summary>
+
   * The My Work page displays works created by the page owner and contains text and images all of which are reactive to all screen sizes and orientations.
   * The images are displayed in a row on larger devices and drop down onto a second line when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in single file one on top of the other.
-* Gallery
+
+      ![My Work](/readme-files/testing/my-work-testing.gif)
+  </details>
+
+<details>
+<summary>Gallery</summary>
+
   * The gallery images are displayed in a rows of three on larger devices and change to rows of two when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in single file one on top of the other.
-* Contact Me
+
+      ![Gallery](/readme-files/testing/gallery-testing.gif)
+  </details>
+
+<details>
+<summary>Contact Me</summary>
+
   * The contact me page allowes the user to contact the site owner and is reactive to all screen sizes and orientations.
   * All inputs on the form, contained on the contact me page, must be completed in order to be submitted; this includes a valid email address being input in the email field.
   * The submit button icons provides feedback to users upon hover over as it changes to a different shade of grey.
-* Back to Top Button
+
+      ![Contact Me](/readme-files/testing/contact-me-testing.gif)
+  </details>
+
+<details>
+<summary>Back To Top Button</summary>
+
   * As the navbar is not fixed, a back to top button was added to allow the user to easily return to the nagvigation links at any stage. This is particularly useful on mobile devices, particularly on the My Work and Gallery pages, as it avoids the need for excessive scrolling.
 
+      ![Back to Top Button](/readme-files/testing/back-to-top-testing.gif)
+  </details>
+
+&nbsp;
+
+## Bugs
+
+### Nav Bar/Hamburger Menu
+  During testing of the navigation bar, it was noted that while the navigation menu collapsed into a hamburger menu, on mobile devices, it was not displaying the drop-down menu upon clicking. After much troubleshooting it was discovered that the lack of bootstrap JavaScript links was the cause of this issue. Once the requisite links were included, the hamburger drop-down menu responded as expected.
+
+### Callout Avatar/Headings
+  When positioning the avatar image and headings within the callout banner, the contrast with the background image was taken into consideration; as when the bottom of the image overlaps with the heading, it caused contrast issues. Additionally, the background image was set to occupy the entire viewport. The positioning was initially set using absolute units, however, during testing it was noted that when a mobile device was changed from portrait to landscape orientation, it caused an overlap and made the headings difficult to read. After much trial and error, the relative units vh, vmin and vmax were used allowing the avitar image and headings to be responsive to all viewport sizes and orientations while maitaining good contrast with the background image.
+
+### Footer Social Media Links
+  When testing the social media links in the footer, it was noted that small black dots were appearing between the social media icons upon hover over. After unsuccessfully troubleshooting this problem, a post was placed on the slack project-milestone-1 page where user jo_ci highlighted that it was being caused by the < a > element. This element was the targeted with text-decoration: none; which resolved the issue. 
 
 ## Browser Compatability
 
@@ -309,95 +370,42 @@ If this section grows too long, you may want to split it off into a separate fil
 
 &nbsp;
 
-## Bugs
-
-  * Home page background contrast
-  * Avatar position
-  * Social Media Links - shading
-  * 
-
-  * Added bootstrap link and tested for functionality.
-  * Added font awesome link and tested for functionality.
-
-## Manual Testing 
-
-&nbsp;
-
-## Additional Testing 
-
-&nbsp;
-
-## Resolved Bugs
-
-&nbsp;
-
-## Validator Testing 
-
-    - HTML
-    - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
-    - CSS
-    - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
-
-&nbsp;
-
-## Unfixed Bugs
-
-    You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
-
-[//]: # (Deployment section for step-by-step forking and cloning instructions)
-
-&nbsp;
-
 # Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+  1. Log in to GitHub and locate the repository: [kokochen](https://github.com/davecoll3/kokochen).
+  2. Once in the repository, navigate to the Settings tab at the top of the page.
+  3. On the settings page, locate the Pages option on the lefthand menu.
+  4. Under the Build and deployment heading, navigate to the "Deploy from a branch" dropdown menue under the subheading Source; select master.
+  5. Save your changes.
+  6. After a few miutes, return to/refresh this page and a link will now be supplied at the top of the Pages section. 
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://davecoll3.github.io/msproject1/index.html 
-
-&nbsp;
-
-* ## Forking a GitHub Repository
+  The live link can be found [here](https://davecoll3.github.io/kokochen/index.html)
 
 &nbsp;
 
-* ## Cloning a GitHub Repository
-
-&nbsp;
-
-* ## Cloning a repository using the command line
-
-[//]: # (Credits section for contenet, images and code)
+## Forking a GitHub Repository
+  1. Log in to GitHub and locate the repository: [kokochen](https://github.com/davecoll3/kokochen).
+  2. Once in the repository, navigate to the Fork button at the top right of the page.
+  3. Save your forked repository.
 
 &nbsp;
 
 # Credits 
 
-In this section you need to reference where you got your content, media and extra help from. It is common practice to use code from other repositories and tutorials, however, it is important to be very specific about these sources to avoid plagiarism. 
+## Content 
 
-You can break the credits section up into Content and Media, depending on what you have included in your project. 
-
-&nbsp;
-
-* ## Content 
-
-- The text for the Home page was taken from Wikipedia Article A
-- Instructions on how to implement form validation on the Sign Up page was taken from [Specific YouTube Tutorial](https://www.youtube.com/)
-- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- The Code Institute readme-template provided the basic structure for the README.md file.
+  * The icons in the footer and back to top button were taken from [Font Awesome](https://fontawesome.com/)
+  * The Code Institute readme-template provided the basic structure for the readme.md file.
 
 &nbsp;
 
-* ## Media
+## Media
 
-- All of the images used across the site are origional creations of Marien Wong Kwok Chuen and were used with her permission.
+  * All of the images used across the site are origional creations of Marine Wong Kwok Chuen and were used with her permission.
 
 &nbsp;
 
-* ## Code
+## Code
 
-- A..
+  * The CSS code for the gallery was taken from the LogRocket article [How to create a responsive image gallery with CSS flexbox](https://blog.logrocket.com/how-create-responsive-image-gallery-css-flexbox/) and is fully credited in the stylesheet.
