@@ -246,19 +246,19 @@ Wireframes for mobile, tablet, and desktop can be found below:
 <summary>Navigation Bar</summary>
 
   * The navigation bar is located at the top of the page and contains navigation links to all pages which are clearly visible in displays with a width of 576px or above. The user can easily identify which page they are on as it is highlighted in white text. The user is also provided with feedback when hovering over links to other pages as the text color changes to a lighter shade of grey when hovering over them.   
-  * When the display width is 575px or below it collapses into a burger icon. All navigation links drop down when the burger icon is clicked and, again, the current page is highlighted in white text.
-  * These elements are familiar and require little to no learning curve to use.
+  * When the display width is 575px or below it collapses into a burger icon. All navigation links drop down when the burger icon is clicked and the current page is highlighted in white text.
+  * These elements function as expected and are familiar, requiring little to no learning curve to use.
 
-    ![Nav Bar](/readme-files/testing/navbar-testing.gif)
+    ![Nav Bar](/readme-files/images/navbar-testing.gif)
 </details>
 
 <details>
 <summary>Callout Banner</summary>
 
   * The callout banner displays an avatar image of the site owner, their name, and their profession/service offered, in order to introduce the user to the owner and purpose of the site.
-  * The background image used is an illustration of the site owner and fills the device viewport; it is reactive to all screen sizes and orientations while maintaining contrast levels with the heading text.
+  * The background image used is an illustration by the site owner and fills the device viewport; it is reactive to all screen sizes and orientations while maintaining contrast levels with the avatar image and heading text.
 
-    ![Callout Banner](/readme-files/testing/callout-testing.gif)
+    ![Callout Banner](/readme-files/images/callout-testing.gif)
 </details>
 
 <details>
@@ -266,7 +266,7 @@ Wireframes for mobile, tablet, and desktop can be found below:
 
   * This section introduces the user to the site owner and is reactive to all screen sizes and orientations.
 
-    ![About Me](/readme-files/testing/about-me-testing.gif)
+    ![About Me](/readme-files/images/about-me-testing.gif)
 </details>
 
 <details>
@@ -276,24 +276,24 @@ Wireframes for mobile, tablet, and desktop can be found below:
   * The icons for each social media link provide feedback to the user upon hover over as they change to a different shade of grey.
   * Each of the social media links opens in a new page as per best practice and to ensure a good user experience.
 
-    ![Footer](/readme-files/testing/footer-testing.gif)
+    ![Footer](/readme-files/images/footer-testing.gif)
 </details>
 
 <details>
 <summary>My Work Page</summary>
 
-  * The My Work page displays works created by the page owner and contains text and images all of which are reactive to all screen sizes and orientations.
-  * The images are displayed in a row on larger devices and drop down onto a second line when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in single file one on top of the other.
+  * The My Work page displays works created by the page owner and contains text and images that are reactive to all screen sizes and orientations.
+  * The images are displayed in a single row on larger devices and drop down onto a second line when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in a single column one on top of the other.
 
-      ![My Work](/readme-files/testing/my-work-testing.gif)
+      ![My Work](/readme-files/images/my-work-testing.gif)
   </details>
 
 <details>
 <summary>Gallery</summary>
 
-  * The gallery images are displayed in rows of three on larger devices and change to rows of two when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in single file one on top of the other.
+  * The gallery images are displayed in rows of three on larger devices and change to rows of two when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in a single column one on top of the other.
 
-      ![Gallery](/readme-files/testing/gallery-testing.gif)
+      ![Gallery](/readme-files/images/gallery-testing.gif)
   </details>
 
 <details>
@@ -303,15 +303,15 @@ Wireframes for mobile, tablet, and desktop can be found below:
   * All inputs on the form, contained on the contact me page, must be completed in order to be submitted; this includes a valid email address being input in the email field.
   * The submit button icons provide feedback to users upon hover over as it changes to a different shade of grey.
 
-      ![Contact Me](/readme-files/testing/contact-me-testing.gif)
+      ![Contact Me](/readme-files/images/contact-me-testing.gif)
   </details>
 
 <details>
 <summary>Back To Top Button</summary>
 
-  * As the navbar is not fixed, a back to top button was added to allow the user to easily return to the navigation links at any stage. This is particularly useful on mobile devices, particularly on the My Work and Gallery pages, as it avoids the need for excessive scrolling.
+  * As the navbar is not fixed to the top of the viewport, a back to top button was added to allow the user to easily return to the navigation links at any stage. This is particularly useful on mobile devices, particularly on the My Work and Gallery pages, as it avoids the need for excessive scrolling.
 
-      ![Back to Top Button](/readme-files/testing/back-to-top-testing.gif)
+      ![Back to Top Button](/readme-files/images/back-to-top-testing.gif)
   </details>
 
 &nbsp;
@@ -333,11 +333,27 @@ Wireframes for mobile, tablet, and desktop can be found below:
 ### Navar/Hamburger Menu
   During testing of the navigation bar, it was noted that while the navigation menu collapsed into a hamburger menu, on mobile devices, it was not displaying the drop-down menu upon clicking. After much troubleshooting it was discovered that the lack of bootstrap JavaScript links was the cause of this issue. Once the requisite links were included, the hamburger drop-down menu responded as expected.
 
+  <details><summary>Screenshot</summary>
+  <img src="readme-files/images/navbar-bug.gif">
+  </details>
+
+  &nbsp;
+
 ### Callout Avatar/Headings
   When positioning the avatar image and headings within the callout banner, the contrast with the background image was taken into consideration; as when the bottom of the image overlaps with the heading, it causes contrast issues. Additionally, the background image was set to occupy the entire viewport. The positioning was initially set using absolute units, however, during testing it was noted that when a mobile device was changed from portrait to landscape orientation, it caused an overlap and made the headings difficult to read. After much trial and error, the relative units vh, vmin and vmax were used allowing the avatar image and headings to be responsive to all viewport sizes and orientations while maintaining good contrast with the background image.
 
+  <details><summary>Screenshot</summary>
+  <img src="readme-files/images/callout-bug.gif">
+  </details>
+
+  &nbsp;
+
 ### Footer Social Media Links
   When testing the social media links in the footer, it was noted that small black dots were appearing between the social media icons upon hover over. After unsuccessfully troubleshooting this problem, a post was placed on the slack project-milestone-1 page where user jo_ci highlighted that it was being caused by the < a > element. This element was targeted with text-decoration: none; which resolved the issue. 
+
+  <details><summary>Screenshot</summary>
+  <img src="readme-files/images/footer-bug.gif">
+  </details>
 
 &nbsp;
 
@@ -442,13 +458,9 @@ The live link can be found [here](https://davecoll3.github.io/kokochen/index.htm
   * The icons in the footer and back to top button were taken from [Font Awesome](https://fontawesome.com/)
   * The Code Institute readme-template provided the basic structure for the readme.md file.
 
-&nbsp;
-
 ## Media
 
   * All of the images used across the site are original creations of Marine Wong Kwok Chuen and were used with her permission.
-
-&nbsp;
 
 ## Code
 
