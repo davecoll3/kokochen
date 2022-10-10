@@ -36,24 +36,6 @@ header {
   align-items: center;
 }
 
-h2 {
-  font-size: 36px;
-  font-weight: 600;
-  margin: 1vmin;
-}
-
-h4 {
-  font-size: 27px;
-  font-weight: 400;
-  margin: 1vmin;
-}
-
-h5 {
-  text-align: center;
-  font-weight: 400;
-  margin: 1vmin;
-}
-
 hr {
   width: 40vmin;
   height: 3px;
@@ -64,8 +46,39 @@ hr {
   background-color: #000;
 }
 
+#callout-main-heading {
+  font-size: 7vmin;
+  font-weight: 700;
+  margin: 1vmin;
+}
+
+#callout-sub-heading {
+  font-size: 5vmin;
+  font-weight: 500;
+  margin: 1vmin;
+}
+
+#section-main-heading {
+  font-size: 36px;
+  font-weight: 600;
+  margin: 1vmin;
+}
+
+#section-sub-heading {
+  font-size: 27px;
+  font-weight: 400;
+  margin: 1vmin;
+}
+
 #gallery-heading {
   margin-bottom: 3%;
+}
+
+#contact-me-text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  margin: 1vmin;
 }
 
 /* ==========
@@ -102,18 +115,6 @@ CALLOUT BANNER
   margin-bottom: 2vmin;
 }
 
-.callout h1 {
-  font-size: 7vmin;
-  font-weight: 700;
-  margin: 1vmin;
-}
-
-.callout h3 {
-  font-size: 5vmin;
-  font-weight: 500;
-  margin: 1vmin;
-}
-
 .callout hr {
   background-color: #fff;
   margin: 1.25vmin;
@@ -133,7 +134,7 @@ MAIN CONTENT
   padding: 10px;
 }
 
-.main-content h4 {
+.main-content h2 {
   padding-bottom: 20px;
 }
 
@@ -186,7 +187,6 @@ GALLERY
 /* ==========
 FORM
 ========== */
-
 .form {
   color: #fff;
   background: url("../images/background-images/bg_form.webp") no-repeat bottom center;
@@ -309,11 +309,12 @@ MEDIA QUERIES
 
 @media (min-width: 769px) and (max-width: 1024px) {
   /* Header */
-  h2 {
+  
+  #section-main-heading {
     font-size: 40px;
   }
   
-  h4 {
+  #section-sub-heading {
     font-size: 30px;
   }
 
@@ -337,11 +338,12 @@ MEDIA QUERIES
 
 @media (min-width: 1025px) and (max-width: 1200px) {
   /* Header */
-  h2 {
+
+  #section-main-heading {
     font-size: 40px;
   }
   
-  h4 {
+  #section-sub-heading {
     font-size: 30px;
   }
 
@@ -370,11 +372,11 @@ MEDIA QUERIES
 
 @media (min-width: 1200px) {
   /* Header */
-  h2 {
+  #section-main-heading {
     font-size: 44px;
   }
   
-  h4 {
+  #section-sub-heading {
     font-size: 33px;
   }
 
