@@ -232,6 +232,8 @@ Wireframes for mobile, tablet, and desktop can be found below:
     * The W3C Markup Validation Service was used to check the markup validity of the html code. 
   * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_uri)
     * The W3C CSS Validation Service was used to validate the css code. 
+  * [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/)
+    * Lighthouse was used to audit performance, accessibility, best practices and SEO across the website.
   * [a11y](https://color.a11y.com/)
     * The a11y Color Contrast Accessibility Validator was used to verify that the colour contrast across the site adhered to the WCAG 2.1 Guidelines.
   * [LambdaTest](https://www.lambdatest.com/)
@@ -315,6 +317,16 @@ Wireframes for mobile, tablet, and desktop can be found below:
 
       ![Back to Top Button](/readme-files/images/back-to-top-testing.gif)
   </details>
+
+&nbsp;
+
+## Lighthouse
+[Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) was used to audit performance, accessibility, best practices and SEO across the website.
+
+  * [Lighthouse Report: Home Page](/readme-files/lighthouse/lighthouse-report-index.pdf)
+  * [Lighthouse Report: My Work Page](/readme-files/lighthouse/lighthouse-report-my-work.pdf)
+  * [Lighthouse Report: Gallery Page](/readme-files/lighthouse/lighthouse-report-gallery.pdf)
+  * [Lighthouse Report: Contact Me Page](/readme-files/lighthouse/lighthouse-report-contact-me.pdf)
 
 &nbsp;
 
