@@ -29,6 +29,7 @@ The primary technologies used to form the basis of this website were the coding 
     * [Testing and Validation Tools](#testing-and-validation-tools)
   * [Testing](#testing)
     * [Manual Testing](#manual-testing)
+    * [Lighthouse](#lighthouse)
     * [Browser Compatibility](#browser-compatibility)
     * [Bugs](#bugs)
   * [Validation](#validation)
@@ -228,6 +229,8 @@ Wireframes for mobile, tablet, and desktop can be found below:
     * Google Fonts was used to import the 'Barlow' font used throughout the site.
 
 ## Testing and Validation Tools
+  * [Chrome DevTools](https://developer.chrome.com/docs/devtools/)
+    * Google Chrome DevTools was used to carry out manual testing on the website and to simulate mobile devices.
   * [W3C Markup Validation Service](https://validator.w3.org/#validate_by_input)
     * The W3C Markup Validation Service was used to check the markup validity of the html code. 
   * [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_uri)
@@ -246,35 +249,92 @@ Wireframes for mobile, tablet, and desktop can be found below:
 # Testing 
 
 ## Manual Testing
-<details>
-<summary>Navigation Bar</summary>
 
-  * The navigation bar is located at the top of the page and contains navigation links to all pages which are clearly visible in displays with a width of 576px or above. The user can easily identify which page they are on as it is highlighted in white text. The user is also provided with feedback when hovering over links to other pages as the text color changes to a lighter shade of grey when hovering over them.   
-  * When the display width is 575px or below it collapses into a burger icon. All navigation links drop down when the burger icon is clicked and the current page is highlighted in white text.
-  * These elements function as expected and are familiar, requiring little to no learning curve to use.
+### Navbar
+* Expected
+  * On devices with a screen width of 576px and greater, the navbar should display navigation links for each of the website pages and highlight the current page in white text.
+  * When clicked on, navigation links should bring the user to the relevant section of the website.
+  * On laptops and desktops, the user should be provided with feedback when hovering over links to other pages as the text color changes to a lighter shade of grey.
+  * On mobile devices, with a screen width of 575px or below, the navigation menu should collapse into a burger icon. All navigation links should drop down when the burger icon is clicked and the current page should be highlighted in white text.
 
-    ![Nav Bar](/readme-files/images/navbar-testing.gif)
-</details>
+* Testing
+  * The navbar was tested on a laptop with a screen width of greater than 576px in order to verify that the navigation links were displayed across the top of the page with the current page highlighted in white text. It was also verified that the navigation links changed color by hovering over them with the cursor.
+  * Chrome DevTools was used to simulate mobile devices and to check for reactiveness. A device with a screen width of less than 575px was selected to ensure that navigation menu collapsed down into a burger icon. This icon was then selected to ensure that the navigation links were revealed and the current page was highlighted in white text.
+    <details><summary>Navbar Testing</summary>
+      <img src="readme-files/images/navbar-testing.gif">
+    </details>
 
-<details>
-<summary>Callout Banner</summary>
+* Result
+  * The site responded as expected in all of the above testing.
+  * On devices with a screen width of greater than 576px, navigation links displayed correctly across the top of the page with the current page highlighted in white text. 
+  * On laptops and desktops, the navigation links changed color upon hovering over them with the cursor.
+  * On mobile devices, with a screen width of 575px or below, the navigation menu collapsed into a burger icon. All navigation links were revealed when the burger icon was clicked and the current page was highlighted in white text.
+
+&nbsp;
+
+### Callout Banner
+
+  * Expected
+    * Site is expected to do X when user does Y
+
+  * Testing
+    * Tested the site by doing Y
+      <details><summary>Callout Banner Testing</summary>
+        <img src="readme-files/images/callout-testing.gif">
+      </details>
+
+  * Result
+    * The site did not respond due to A, B, C
+      or
+      The site acted as expected and did Y.
+
+  * Fix
+    * I did Z to the code because D
+
 
   * The callout banner displays an avatar image of the site owner, their name, and their profession/service offered, in order to introduce the user to the owner and purpose of the site.
   * The background image used is an illustration by the site owner and fills the device viewport; it is reactive to all screen sizes and orientations while maintaining contrast levels with the avatar image and heading text.
 
-    ![Callout Banner](/readme-files/images/callout-testing.gif)
-</details>
+&nbsp;
 
-<details>
-<summary>About Me Section</summary>
+### About Me Section
+
+  * Expected
+    * Site is expected to do X when user does Y
+
+  * Testing
+    * Tested the site by doing Y
+
+  * Result
+    * The site did not respond due to A, B, C
+      or
+      The site acted as expected and did Y.
+
+  * Fix
+    * I did Z to the code because D
 
   * This section introduces the user to the site owner and is reactive to all screen sizes and orientations.
-
+<details>
+<summary>About Me Section</summary>
     ![About Me](/readme-files/images/about-me-testing.gif)
 </details>
 
 <details>
 <summary>Footer</summary>
+
+  * Expected
+    * Site is expected to do X when user does Y
+
+  * Testing
+    * Tested the site by doing Y
+
+  * Result
+    * The site did not respond due to A, B, C
+      or
+      The site acted as expected and did Y.
+
+  * Fix
+    * I did Z to the code because D
 
   * The footer is located at the bottom of the page and contains social media links and copyright information, it is reactive to all screen sizes and orientations.
   * The icons for each social media link provide feedback to the user upon hover over as they change to a different shade of grey.
@@ -286,6 +346,20 @@ Wireframes for mobile, tablet, and desktop can be found below:
 <details>
 <summary>My Work Page</summary>
 
+  * Expected
+    * Site is expected to do X when user does Y
+
+  * Testing
+    * Tested the site by doing Y
+
+  * Result
+    * The site did not respond due to A, B, C
+      or
+      The site acted as expected and did Y.
+
+  * Fix
+    * I did Z to the code because D
+
   * The My Work page displays works created by the page owner and contains text and images that are reactive to all screen sizes and orientations.
   * The images are displayed in a single row on larger devices and drop down onto a second line when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in a single column one on top of the other.
 
@@ -295,6 +369,20 @@ Wireframes for mobile, tablet, and desktop can be found below:
 <details>
 <summary>Gallery</summary>
 
+  * Expected
+    * Site is expected to do X when user does Y
+
+  * Testing
+    * Tested the site by doing Y
+
+  * Result
+    * The site did not respond due to A, B, C
+      or
+      The site acted as expected and did Y.
+
+  * Fix
+    * I did Z to the code because D
+
   * The gallery images are displayed in rows of three on larger devices and change to rows of two when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in a single column one on top of the other.
 
       ![Gallery](/readme-files/images/gallery-testing.gif)
@@ -302,6 +390,20 @@ Wireframes for mobile, tablet, and desktop can be found below:
 
 <details>
 <summary>Contact Me</summary>
+
+  * Expected
+    * Site is expected to do X when user does Y
+
+  * Testing
+    * Tested the site by doing Y
+
+  * Result
+    * The site did not respond due to A, B, C
+      or
+      The site acted as expected and did Y.
+
+  * Fix
+    * I did Z to the code because D
 
   * The contact me page allows the user to contact the site owner and is reactive to all screen sizes and orientations.
   * All inputs on the form, contained on the contact me page, must be completed in order to be submitted; this includes a valid email address being input in the email field.
@@ -312,6 +414,20 @@ Wireframes for mobile, tablet, and desktop can be found below:
 
 <details>
 <summary>Back To Top Button</summary>
+
+  * Expected
+    * Site is expected to do X when user does Y
+
+  * Testing
+    * Tested the site by doing Y
+
+  * Result
+    * The site did not respond due to A, B, C
+      or
+      The site acted as expected and did Y.
+
+  * Fix
+    * I did Z to the code because D
 
   * As the navbar is not fixed to the top of the viewport, a back to top button was added to allow the user to easily return to the navigation links at any stage. This is particularly useful on mobile devices, particularly on the My Work and Gallery pages, as it avoids the need for excessive scrolling.
 
@@ -344,28 +460,91 @@ Wireframes for mobile, tablet, and desktop can be found below:
 
 ## Bugs
 
-### Navar/Hamburger Menu
-  During testing of the navigation bar, it was noted that while the navigation menu collapsed into a hamburger menu, on mobile devices, it was not displaying the drop-down menu upon clicking. After much troubleshooting it was discovered that the lack of bootstrap JavaScript links was the cause of this issue. Once the requisite links were included, the hamburger drop-down menu responded as expected.
+### Navbar/Hamburger Menu
+  During testing of the navigation bar, it was noted that while the navigation menu collapsed into a hamburger menu, on mobile devices, it was not displaying the drop-down menu upon clicking. After much troubleshooting it was discovered that the lack of bootstrap JavaScript links was the cause of this issue. Once the requisite links were included, as shown below, the hamburger drop-down menu responded as expected.
 
-  <details><summary>Screenshot</summary>
+  ```
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"
+  ></script>
+
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"
+  ></script>
+
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"
+  ></script>
+  ```
+
+  <details><summary>Navbar Bug Screenshot</summary>
   <img src="readme-files/images/navbar-bug.gif">
   </details>
 
   &nbsp;
 
 ### Callout Avatar/Headings
-  When positioning the avatar image and headings within the callout banner, the contrast with the background image was taken into consideration; as when the bottom of the image overlaps with the heading, it causes contrast issues. Additionally, the background image was set to occupy the entire viewport. The positioning was initially set using absolute units, however, during testing it was noted that when a mobile device was changed from portrait to landscape orientation, it caused an overlap and made the headings difficult to read. After much trial and error, the relative units vh, vmin and vmax were used allowing the avatar image and headings to be responsive to all viewport sizes and orientations while maintaining good contrast with the background image.
+  When positioning the avatar image and headings within the callout banner, the contrast with the background image was taken into consideration; as when the bottom of the image overlaps with the heading, it causes contrast issues. Additionally, the background image was set to occupy the entire viewport. The positioning was initially set using absolute units, however, during testing it was noted that when a mobile device was changed from portrait to landscape orientation, it caused an overlap and made the headings difficult to read. After much trial and error, the relative units, as shown below, were used allowing the avatar image and headings to be responsive to all viewport sizes and orientations while maintaining good contrast with the background image.
 
-  <details><summary>Screenshot</summary>
+  ```
+  .callout {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6vmin;
+  }
+
+  .avatar {
+    width: 40vmin;
+    height: 40vmin;
+    border-radius: 50%;
+    margin-bottom: 2vmin;
+  }
+
+  .callout hr {
+    background-color: #fff;
+    margin: 1.25vmin;
+  }
+
+  ...
+
+  #callout-main-heading {
+    font-size: 7vmin;
+    font-weight: 700;
+    margin: 1vmin;
+  }
+
+  #callout-sub-heading {
+    font-size: 5vmin;
+    font-weight: 500;
+    margin: 1vmin;
+  }
+  ```
+
+  <details><summary>Callout Bug Screenshot</summary>
   <img src="readme-files/images/callout-bug.gif">
   </details>
 
   &nbsp;
 
 ### Footer Social Media Links
-  When testing the social media links in the footer, it was noted that small black dots were appearing between the social media icons upon hover over. After unsuccessfully troubleshooting this problem, a post was placed on the slack project-milestone-1 page where user jo_ci highlighted that it was being caused by the < a > element. This element was targeted with text-decoration: none; which resolved the issue. 
+  When testing the social media links in the footer, it was noted that small black dots were appearing between the social media icons upon hover over. After unsuccessfully troubleshooting this problem, a post was placed on the slack project-milestone-1 page where user jo_ci highlighted that it was being caused by the < a > element. This element was targeted, as shown below, which resolved the issue. 
 
-  <details><summary>Screenshot</summary>
+  ```
+  .social-networks a:hover {
+  text-decoration: none;
+  }
+  ```
+
+  <details><summary>Footer Bug Screenshot</summary>
   <img src="readme-files/images/footer-bug.gif">
   </details>
 
