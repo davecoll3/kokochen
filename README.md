@@ -36,6 +36,8 @@ The primary technologies used to form the basis of this website were the coding 
     * [CSS](#css)
     * [Color Contrast](#color-contrast)
   * [Deployment](#deployment)
+    * [Forking the GitHub Repository](#forking-the-github-repository)
+    * [Making a Local Clone](#making-a-local-clone)
   * [Credits](#credits)
 
 &nbsp;
@@ -442,10 +444,38 @@ The live link can be found [here](https://davecoll3.github.io/kokochen/index.htm
 
 &nbsp;
 
-## Forking a GitHub Repository
+## Forking the GitHub Repository
+
+Forking the GitHub Repository makes a copy of the original repository on our GitHub account; allowing us to view and/or make changes without affecting the original repository and can be done by using the following steps.
   1. Log in to GitHub and locate the repository: [kokochen](https://github.com/davecoll3/kokochen).
-  2. Once in the repository, navigate to the Fork button at the top right of the page.
-  3. Save your forked repository.
+  2. Once in the repository, navigate to the Fork button at the top right of the page; just above the settings button on the menu.
+  3. You should now have a copy of the original repository in your GitHub account.
+
+&nbsp;
+
+## Making a Local Clone
+  1. Log in to GitHub and locate the repository: [kokochen](https://github.com/davecoll3/kokochen).
+  2. Under the repository name, click "Clone or download".
+  3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+  4. Open Git Bash
+  5. Change the current working directory to the location where you want the cloned directory to be made.
+  6. Type `git clone` and then paste the URL you copied in Step 3.
+  ```
+  $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+  ```
+
+  7. Press Enter. Your local clone will be created.
+
+  ```
+  $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+  > Cloning into `CI-Clone`...
+  > remote: Counting objects: 10, done.
+  > remote: Compressing objects: 100% (8/8), done.
+  > remove: Total 10 (delta 1), reused 10 (delta 1)
+  > Unpacking objects: 100% (10/10), done.
+  ```
+
+Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 &nbsp;
 
