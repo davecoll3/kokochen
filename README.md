@@ -265,7 +265,7 @@ Wireframes for mobile, tablet, and desktop can be found below:
     </details>
 
 * Result
-  * The site responded as expected in all of the above testing.
+  * The navbar responded as expected in all of the above testing.
   * On devices with a screen width of greater than 576px, navigation links displayed correctly across the top of the page with the current page highlighted in white text. 
   * On laptops and desktops, the navigation links changed color upon hovering over them with the cursor.
   * On mobile devices, with a screen width of 575px or below, the navigation menu collapsed into a burger icon. All navigation links were revealed when the burger icon was clicked and the current page was highlighted in white text.
@@ -304,6 +304,9 @@ Wireframes for mobile, tablet, and desktop can be found below:
 
   * Testing
     * Tested the site by doing Y
+      <details><summary>About Me Section</summary>
+        <img src="readme-files/images/about-me-testing.gif">
+      </details>
 
   * Result
     * The site did not respond due to A, B, C
@@ -314,19 +317,19 @@ Wireframes for mobile, tablet, and desktop can be found below:
     * I did Z to the code because D
 
   * This section introduces the user to the site owner and is reactive to all screen sizes and orientations.
-<details>
-<summary>About Me Section</summary>
-    ![About Me](/readme-files/images/about-me-testing.gif)
-</details>
 
-<details>
-<summary>Footer</summary>
+&nbsp;
+
+### Footer
 
   * Expected
     * Site is expected to do X when user does Y
 
   * Testing
     * Tested the site by doing Y
+      <details><summary>Footer</summary>
+        <img src="readme-files/images/footer-testing.gif">
+      </details>
 
   * Result
     * The site did not respond due to A, B, C
@@ -339,18 +342,19 @@ Wireframes for mobile, tablet, and desktop can be found below:
   * The footer is located at the bottom of the page and contains social media links and copyright information, it is reactive to all screen sizes and orientations.
   * The icons for each social media link provide feedback to the user upon hover over as they change to a different shade of grey.
   * Each of the social media links opens in a new page as per best practice and to ensure a good user experience.
+        
+&nbsp;
 
-    ![Footer](/readme-files/images/footer-testing.gif)
-</details>
-
-<details>
-<summary>My Work Page</summary>
+### My Work Page
 
   * Expected
     * Site is expected to do X when user does Y
 
   * Testing
     * Tested the site by doing Y
+      <details><summary>My Work Page</summary>
+        <img src="readme-files/images/my-work-testing.gif">
+      </details>
 
   * Result
     * The site did not respond due to A, B, C
@@ -363,17 +367,16 @@ Wireframes for mobile, tablet, and desktop can be found below:
   * The My Work page displays works created by the page owner and contains text and images that are reactive to all screen sizes and orientations.
   * The images are displayed in a single row on larger devices and drop down onto a second line when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in a single column one on top of the other.
 
-      ![My Work](/readme-files/images/my-work-testing.gif)
-  </details>
-
-<details>
-<summary>Gallery</summary>
+### Gallery
 
   * Expected
     * Site is expected to do X when user does Y
 
   * Testing
     * Tested the site by doing Y
+      <details><summary>Gallery</summary>
+        <img src="readme-files/images/gallery-testing.gif">
+      </details>
 
   * Result
     * The site did not respond due to A, B, C
@@ -385,54 +388,57 @@ Wireframes for mobile, tablet, and desktop can be found below:
 
   * The gallery images are displayed in rows of three on larger devices and change to rows of two when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in a single column one on top of the other.
 
-      ![Gallery](/readme-files/images/gallery-testing.gif)
-  </details>
+&nbsp;
 
-<details>
-<summary>Contact Me</summary>
+### Contact Me
 
   * Expected
-    * Site is expected to do X when user does Y
+    * The heading and text on the contact me section should be black with a white background and sit directly under the navbar.
+    * The contact form should consist of a three text boxes (Name, Email & Project Description) and a submit/send button. The background image should provide sufficent contrast and not interfere with the visibility of the heading and form elements.
+    * All text boxes should contain placeholder text stating what their content should be and provide feedback if a submission attempt is made by a user who has not entered text in all three; the email box should only accept sublissions containg the '@' symbol. 
+    * All content should be horizontally aligned to the center of the page and be reactive to various devices and screen sizes.
+    * On laptops and desktops, the user should be provided with feedback when hovering over the submit/send button as the color changes to a darker shade of grey.
 
   * Testing
-    * Tested the site by doing Y
+    * The contact me section was tested for responsiveness on various screen sizes and devices using Chrome DevTools.
+    * Attemps were made to submit an incomplete and partially complete forms, as well as submissions that did not contain an '@' symbol in the email field, to verify that the form would only accept a completed form with the relevant fields completed correctly.
+    * It was also verified that the submit/send button changed color by hovering over it with the cursor.
+      <details><summary>Contact Me Page</summary>
+        <img src="readme-files/images/contact-me-testing.gif">
+      </details>
 
   * Result
-    * The site did not respond due to A, B, C
-      or
-      The site acted as expected and did Y.
+    * The contact me section responded as expected in all of the above testing.
+    * 
+    * On laptops and desktops, the submit/send button changed color upon hovering over it with the cursor.
 
   * Fix
     * I did Z to the code because D
 
   * The contact me page allows the user to contact the site owner and is reactive to all screen sizes and orientations.
   * All inputs on the form, contained on the contact me page, must be completed in order to be submitted; this includes a valid email address being input in the email field.
-  * The submit button icons provide feedback to users upon hover over as it changes to a different shade of grey.
+  * The submit button icons provide feedback to users upon hover over as it changes to a darker shade of grey.
 
-      ![Contact Me](/readme-files/images/contact-me-testing.gif)
-  </details>
+&nbsp;
 
-<details>
-<summary>Back To Top Button</summary>
+### Back to Top Button
 
   * Expected
-    * Site is expected to do X when user does Y
+    * The back to top button should be found in the bottom right corner of the page and bring the user back to the top of the page when clicked on.
+    * The back to top button should be unintrusive and semi transparent.
+    * On laptops and desktops, the user should be provided with feedback when hovering over the back to top button as the color changes to a darker shade of grey.
 
   * Testing
-    * Tested the site by doing Y
+    * The back to top button was tested by scrolling down on all site pages and clicking on it to return to the top of the page; Chrome DevTools was used to simulate mobile devices.
+    * It was also verified that the back to top button changed color by hovering over it with the cursor.
+      <details><summary>Back to Top Button</summary>
+        <img src="readme-files/images/back-to-top-testing.gif">
+      </details>
 
   * Result
-    * The site did not respond due to A, B, C
-      or
-      The site acted as expected and did Y.
-
-  * Fix
-    * I did Z to the code because D
-
-  * As the navbar is not fixed to the top of the viewport, a back to top button was added to allow the user to easily return to the navigation links at any stage. This is particularly useful on mobile devices, particularly on the My Work and Gallery pages, as it avoids the need for excessive scrolling.
-
-      ![Back to Top Button](/readme-files/images/back-to-top-testing.gif)
-  </details>
+    * The back to top button responded as expected in all of the above testing.
+    * The back to top button was present and brought the user back to the top of the page on all pages, screen sizes and devices. 
+    * On laptops and desktops, the back to top button changed color upon hovering over it with the cursor.
 
 &nbsp;
 
