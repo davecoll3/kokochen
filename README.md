@@ -91,7 +91,7 @@ Research for the creation of this site was carried out by searching online for o
 
 ### Expectations
 
-  * Feedback when interacting with page links allowing me to easily know where I am on the site and where I can go to.
+  * Feedback when interacting with page links which allows me to easily know where I am on the site and where I can navigate to.
   * Feedback on the contact form to inform me when it has been completed and submitted correctly.
   * When clicking on social media links, they should open in a seperate tab or window.
 

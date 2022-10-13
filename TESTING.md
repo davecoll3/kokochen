@@ -10,7 +10,7 @@
 
 ### Navbar
 * Expected
-  * The navbar should be located at the top of the page and dissapear when the user scrolls down the page.
+  * The navbar should be located at the top of the page and disappear when the user scrolls down the page.
   * On devices with a screen width of 576px and greater, the navbar should display navigation links for each of the website pages and highlight the current page in white text.
   * When clicked on, navigation links should bring the user to the relevant section of the website.
   * On laptops and desktops, the user should be provided with feedback when hovering over links to other pages as the text color changes to a lighter shade of grey.
@@ -18,14 +18,14 @@
 
 * Testing
   * The navbar was tested on a laptop with a screen width of greater than 576px in order to verify that the navigation links were displayed across the top of the page with the current page highlighted in white text. It was also verified that the navigation links changed color by hovering over them with the cursor.
-  * Chrome DevTools was used to simulate mobile devices and to check for reactiveness. A device with a screen width of less than 575px was selected to ensure that navigation menu collapsed down into a burger icon. This icon was then selected to ensure that the navigation links were revealed and the current page was highlighted in white text.
+  * Chrome DevTools was used to simulate mobile devices and to check for reactiveness. A device with a screen width of less than 575px was selected to ensure that the navigation menu collapsed down into a burger icon. This icon was then selected to ensure that the navigation links were revealed and the current page was highlighted in white text.
     <details><summary>Navbar Testing</summary>
       <img src="readme-files/images/navbar-testing.gif">
     </details>
 
 * Result
   * The navbar responded as expected in all of the above testing.
-  * The navbar was found at the top of the page and dissapeared when the user scrolls down the page.
+  * The navbar was found at the top of the page and disappeared when the user scrolled down the page.
   * On devices with a screen width of greater than 576px, navigation links should be displayed in a row with the current page highlighted in white text. 
   * On laptops and desktops, the navigation links changed color upon hovering over them with the cursor.
   * On mobile devices, with a screen width of 575px or below, the navigation menu collapsed into a burger icon. All navigation links were revealed when the burger icon was clicked and the current page was highlighted in white text.
@@ -35,8 +35,8 @@
 ### Callout Banner
 
   * Expected
-    * The callout banner displays an avatar image of the site owner, a main heading (their name), and a sub-heading (their profession/service offered).
-    * The background image should provide sufficent contrast and not interfere with the visibility of the image and heading elements.
+    * The callout banner displays an avatar image of the site owner, a main heading (their name), and a subheading (their profession/service offered).
+    * The background image should provide sufficient contrast and not interfere with the visibility of the image and heading elements.
     * All content should be horizontally aligned to the center of the page and be reactive to various devices and screen sizes.
 
   * Testing
@@ -50,7 +50,7 @@
   * Result
     * The about me section responded as expected in all of the above testing.
     * All content was horizontally aligned to the center of the page and reactive to various devices and screen sizes.
-    * The background image provided sufficent contrast and did not interfere with the visibility of the image and heading elements.
+    * The background image provided sufficient contrast and did not interfere with the visibility of the image and heading elements.
 
 &nbsp;
 
@@ -145,14 +145,14 @@
 
   * Expected
     * The heading and text on the contact me section should be black with a white background and sit directly under the navbar.
-    * The contact form should consist of a three text boxes (Name, Email & Project Description) and a submit/send button. The background image should provide sufficent contrast and not interfere with the visibility of the heading and form elements.
-    * All text boxes should contain placeholder text stating what their content should be and provide feedback if a submission attempt is made by a user who has not entered text in all three; the email box should only accept sublissions containg the '@' symbol. 
+    * The contact form should consist of three text boxes (Name, Email & Project Description) and a submit/send button. The background image should provide sufficient contrast and not interfere with the visibility of the heading and form elements.
+    * All text boxes should contain placeholder text stating what their content should be and provide feedback if a submission attempt is made by a user who has not entered text in all three; the email box should only accept submissions containing the '@' symbol. 
     * All content should be horizontally aligned to the center of the page and be reactive to various devices and screen sizes.
     * On laptops and desktops, the user should be provided with feedback when hovering over the submit/send button as the color changes to a darker shade of grey.
 
   * Testing
     * The contact me section was tested for responsiveness on various screen sizes and devices using Chrome DevTools.
-    * Attemps were made to submit an incomplete and partially complete forms, as well as submissions that did not contain a '@' symbol in the email field, to verify that the form would only accept a completed form with the relevant fields completed correctly.
+    * Attempts were made to submit incomplete and partially complete forms, as well as submissions that did not contain a '@' symbol in the email field, to verify that the form would only accept a completed form with the relevant fields completed correctly.
     * It was also verified that the submit/send button changed color by hovering over it with the cursor.
     * The background was checked in both portrait and landscape orientations on mobile devices to ensure that it did not interfere with the visibility of the heading and form elements.
       <details><summary>Contact Me Section</summary>
@@ -164,7 +164,7 @@
     * All content was horizontally aligned to the center of the page and reactive to various devices and screen sizes.
     * The form could not be submitted until all text fields had been complete and feedback was provided if a text field was empty; the email field only accepted submissions containing a '@' symbol and provided feedback when this was lacking.
     * On laptops and desktops, the submit/send button changed color upon hovering over it with the cursor.
-    * The background image provided sufficent contrast and did not interfere with the visibility of the heading and form elements.
+    * The background image provided sufficient contrast and did not interfere with the visibility of the heading and form elements.
 
 &nbsp;
 
@@ -207,25 +207,115 @@
 
 [LambdaTest](https://www.lambdatest.com/) was used to test the site across a number of browsers, including:
 
-  * Chrome: Windows
-    <details><summary>Home Page</summary>
-    <img src="readme-files/images/chrome_home.png" alt="Home page on Chrome browser">
-    </details>
-    <details><summary>My Work Page</summary>
-    <img src="readme-files/images/chrome_work.png" alt="My Work page on Chrome browser">
-    </details>
-    <details><summary>Gallery Page</summary>
-    <img src="readme-files/images/chrome_gallery.png" alt="Gallery page on Chrome browser">
-    </details>
-    <details><summary>Contact Me Page</summary>
-    <img src="readme-files/images/chrome_contact.png" alt="Contact Me page on Chrome browser">
-    </details>
-  * Chrome: Android
-  * Safari: MacOS
-  * Safari: iOS
-  * Edge: Windows
-  * Firefox: Windows
-  * Opera: Windows
+### Chrome: Windows
+  <details><summary>Home Page</summary>
+  <img src="readme-files/images/chrome_home.png" alt="Home page on Chrome browser">
+  </details>
+  <details><summary>My Work Page</summary>
+  <img src="readme-files/images/chrome_work.png" alt="My Work page on Chrome browser">
+  </details>
+  <details><summary>Gallery Page</summary>
+  <img src="readme-files/images/chrome_gallery.png" alt="Gallery page on Chrome browser">
+  </details>
+  <details><summary>Contact Me Page</summary>
+  <img src="readme-files/images/chrome_contact.png" alt="Contact Me page on Chrome browser">
+  </details>  
+  
+  &nbsp;
+
+  ### Chrome: Android
+  <details><summary>Home Page</summary>
+  <img src="readme-files/images/android_home.png" alt="Home page on Chrome (Android) browser">
+  </details>
+  <details><summary>My Work Page</summary>
+  <img src="readme-files/images/android_work.png" alt="My Work page on Chrome (Android) browser">
+  </details>
+  <details><summary>Gallery Page</summary>
+  <img src="readme-files/images/android_gallery.png" alt="Gallery page on Chrome (Android) browser">
+  </details>
+  <details><summary>Contact Me Page</summary>
+  <img src="readme-files/images/android_contact.png" alt="Contact Me page on Chrome (Android) browser">
+  </details>
+
+  &nbsp;
+
+  ### Safari: MacOS
+  <details><summary>Home Page</summary>
+  <img src="readme-files/images/safari_home.png" alt="Home page on Safari browser">
+  </details>
+  <details><summary>My Work Page</summary>
+  <img src="readme-files/images/safari_work.png" alt="My Work page on Safari browser">
+  </details>
+  <details><summary>Gallery Page</summary>
+  <img src="readme-files/images/safari_gallery.png" alt="Gallery page on Safari browser">
+  </details>
+  <details><summary>Contact Me Page</summary>
+  <img src="readme-files/images/safari_contact.png" alt="Contact Me page on Safari browser">
+  </details>
+
+  &nbsp;
+
+  ### Safari: iOS
+  <details><summary>Home Page</summary>
+  <img src="readme-files/images/ios_home.png" alt="Home page on Safari (iOS) browser">
+  </details>
+  <details><summary>My Work Page</summary>
+  <img src="readme-files/images/ios_work.png" alt="My Work page on Safari (iOS) browser">
+  </details>
+  <details><summary>Gallery Page</summary>
+  <img src="readme-files/images/ios_gallery.png" alt="Gallery page on Safari (iOS) browser">
+  </details>
+  <details><summary>Contact Me Page</summary>
+  <img src="readme-files/images/ios_contact.png" alt="Contact Me page on Safari (iOS) browser">
+  </details>
+
+  &nbsp;
+
+  ### MS Edge: Windows
+  <details><summary>Home Page</summary>
+  <img src="readme-files/images/edge_home.png" alt="Home page on MS Edge browser">
+  </details>
+  <details><summary>My Work Page</summary>
+  <img src="readme-files/images/edge_work.png" alt="My Work page on MS Edge browser">
+  </details>
+  <details><summary>Gallery Page</summary>
+  <img src="readme-files/images/edge_gallery.png" alt="Gallery page on MS Edge browser">
+  </details>
+  <details><summary>Contact Me Page</summary>
+  <img src="readme-files/images/edge_contact.png" alt="Contact Me page on MS Edge browser">
+  </details>
+
+  &nbsp;
+
+  ### Firefox: Windows
+  <details><summary>Home Page</summary>
+  <img src="readme-files/images/moz_home.png" alt="Home page on Firefox browser">
+  </details>
+  <details><summary>My Work Page</summary>
+  <img src="readme-files/images/moz_work.png" alt="My Work page on Firefox browser">
+  </details>
+  <details><summary>Gallery Page</summary>
+  <img src="readme-files/images/moz_gallery.png" alt="Gallery page on Firefox browser">
+  </details>
+  <details><summary>Contact Me Page</summary>
+  <img src="readme-files/images/moz_contact.png" alt="Contact Me page on Firefox browser">
+  </details>
+
+  &nbsp;
+
+  ### Opera: Windows
+  <details><summary>Home Page</summary>
+  <img src="readme-files/images/opera_home.png" alt="Home page on Opera browser">
+  </details>
+  <details><summary>My Work Page</summary>
+  <img src="readme-files/images/opera_work.png" alt="My Work page on Opera browser">
+  </details>
+  <details><summary>Gallery Page</summary>
+  <img src="readme-files/images/opera_gallery.png" alt="Gallery page on Opera browser">
+  </details>
+  <details><summary>Contact Me Page</summary>
+  <img src="readme-files/images/opera_contact.png" alt="Contact Me page on Opera browser">
+  </details>
 
 &nbsp;
 
