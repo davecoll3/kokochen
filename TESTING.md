@@ -26,7 +26,7 @@
 * Result
   * The navbar responded as expected in all of the above testing.
   * The navbar was found at the top of the page and disappeared when the user scrolled down the page.
-  * On devices with a screen width of greater than 576px, navigation links should be displayed in a row with the current page highlighted in white text. 
+  * On devices with a screen width of greater than 576px, navigation links were displayed in a row with the current page highlighted in white text. 
   * On laptops and desktops, the navigation links changed color upon hovering over them with the cursor.
   * On mobile devices, with a screen width of 575px or below, the navigation menu collapsed into a burger icon. All navigation links were revealed when the burger icon was clicked and the current page was highlighted in white text.
 
@@ -35,7 +35,7 @@
 ### Callout Banner
 
   * Expected
-    * The callout banner displays an avatar image of the site owner, a main heading (their name), and a subheading (their profession/service offered).
+    * The callout banner should display an avatar image of the site owner, a main heading (their name), and a subheading (their profession/service offered).
     * The background image should provide sufficient contrast and not interfere with the visibility of the image and heading elements.
     * All content should be horizontally aligned to the center of the page and be reactive to various devices and screen sizes.
 
@@ -48,7 +48,7 @@
       </details>
 
   * Result
-    * The about me section responded as expected in all of the above testing.
+    * The callout banner responded as expected in all of the above testing.
     * All content was horizontally aligned to the center of the page and reactive to various devices and screen sizes.
     * The background image provided sufficient contrast and did not interfere with the visibility of the image and heading elements.
 
@@ -63,7 +63,7 @@
   * Testing
     * The about me section was tested for responsiveness on various screen sizes and devices using Chrome DevTools.
     * Testing was carried out across various devices and screen widths to ensure that the heading and text remained horizontally aligned to the center of the page.
-      <details><summary>About Me Section</summary>
+      <details><summary>About Me Section Testing</summary>
         <img src="readme-files/images/about-me-testing.gif">
       </details>
 
@@ -86,7 +86,7 @@
     * It was verified that the social media links/icons changed color by hovering over them with the cursor.
     * All social media links/icons were clicked on to ensure that they opened the relevant link in a new tab.
     * Testing was carried out across various devices and screen widths to ensure that the social media links/icons and copyright text remained horizontally aligned to the center of the page.
-      <details><summary>Footer</summary>
+      <details><summary>Footer Testing</summary>
         <img src="readme-files/images/footer-testing.gif">
       </details>
 
@@ -102,13 +102,13 @@
 
   * Expected
     * The heading and text on the my work section should be black with a white background and sit directly under the navbar.
-    * The images should display directly underneath their relevant headings and text.
-    * All images are displayed in a single row on larger devices and drop down onto a second line when the viewport width is 1199px or smaller. When the viewport width is smaller than 770px the images display in a single column one on top of the other.
+    * The images should display directly underneath their relevant subheadings and text.
+    * All images should be displayed in a single row on devices with a screen width of greater than 1199px. On devices with a screen width of between 1199px and 768px, the images drop down onto a second line. On devices with a screen width smaller than 768px the images display in a single column one on top of the other.
 
   * Testing
     * The my work section was tested for responsiveness on various screen sizes and devices using Chrome DevTools.
     * Testing was carried out across various devices and screen widths to ensure that the images reacted as expected, displaying in rows of three, two, and a single column depending on screen width, and that headings and text remained horizontally aligned to the center of the page.
-      <details><summary>My Work Section</summary>
+      <details><summary>My Work Section Testing</summary>
         <img src="readme-files/images/my-work-testing.gif">
       </details>
 
@@ -124,13 +124,13 @@
   * Expected
     * The heading on the gallery section should be black with a white background and sit directly under the navbar.
     * All content should be horizontally aligned to the center of the page and be reactive to various devices and screen sizes.
-    * The gallery images are displayed in rows of three on devices with a screen width of greater than 1199px. On devices with a screen width of between 1199px and 768px, the images are displayed in rows of two. On devices with a screen width smaller than 768px the images display in a single column one on top of the other.
+    * The gallery images should be displayed in rows of three on devices with a screen width of greater than 1199px. On devices with a screen width of between 1199px and 768px, the images are displayed in rows of two. On devices with a screen width smaller than 768px the images display in a single column one on top of the other.
 
 
   * Testing
     * The gallery section was tested for responsiveness on various screen sizes and devices using Chrome DevTools.
     * Various devices and screen widths were simulated to ensure that the gallery images reacted as expected, displaying in rows of three, two, and a single column depending on screen width, and that the heading remained horizontally aligned to the center of the page.
-      <details><summary>Gallery Section</summary>
+      <details><summary>Gallery Section Testing</summary>
         <img src="readme-files/images/gallery-testing.gif">
       </details>
 
@@ -155,7 +155,7 @@
     * Attempts were made to submit incomplete and partially complete forms, as well as submissions that did not contain a '@' symbol in the email field, to verify that the form would only accept a completed form with the relevant fields completed correctly.
     * It was also verified that the submit/send button changed color by hovering over it with the cursor.
     * The background was checked in both portrait and landscape orientations on mobile devices to ensure that it did not interfere with the visibility of the heading and form elements.
-      <details><summary>Contact Me Section</summary>
+      <details><summary>Contact Me Section Testing</summary>
         <img src="readme-files/images/contact-me-testing.gif">
       </details>
 
@@ -178,7 +178,7 @@
   * Testing
     * The back to top button was tested by scrolling down on all site pages and clicking on it to return to the top of the page; Chrome DevTools was used to simulate mobile devices.
     * It was also verified that the back to top button changed color by hovering over it with the cursor.
-      <details><summary>Back to Top Button</summary>
+      <details><summary>Back to Top Button Testing</summary>
         <img src="readme-files/images/back-to-top-testing.gif">
       </details>
 

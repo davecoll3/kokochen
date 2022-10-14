@@ -1,6 +1,6 @@
 # Kokochen
 
-Marien Wong Kwok Chuen is a freelance illustrator living in Metz, France. This portfolio site aims to showcase Marine's illustrations and examples of her work. The site will be targeted towards individuals and organisations who have a need for a talented freelance illustrator. It will clearly demonstrate a variety of original illustrations produced to date along with examples of illustrations used in previously commissioned work. The site will also be a useful means to contact Marine in order to commission new work.
+Marien Wong Kwok Chuen - aka. Kokochen - is a freelance illustrator living in Metz, France. This portfolio site aims to showcase Marine's illustrations and examples of her work. The site will be targeted towards individuals and organisations who have a need for a talented freelance illustrator. It will clearly demonstrate a variety of original illustrations produced to date along with examples of illustrations used in previously commissioned work. The site will also be a useful means to contact Marine in order to commission new work.
 
 The primary technologies used to form the basis of this website were the coding languages HTML5 and CSS3 which were complemented by use of the Bootstrap framework.
 
@@ -145,7 +145,7 @@ Wireframes for mobile, tablet, and desktop can be found below:
 
 * Navigation Bar
 
-  * Featured on all four pages, the full responsive navigation bar includes links to the Home, My Work, Gallery and Sign Up pages and is identical in each page to allow for easy navigation.
+  * Featured on all four pages, the full responsive navigation bar includes links to the Home, My Work, Gallery and Sign Up pages and is identical on each page to allow for easy navigation.
   * This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
   * The user's current location is indicated by white text in the menu list items with the other items in a muted shade of grey; menu items are also highlighted when hovering over them, adding a responsive element.
   * The navigation menu will collapse into a burger icon on mobile screens allowing for a more user friendly and aesthetically pleasing experience.
@@ -166,7 +166,8 @@ Wireframes for mobile, tablet, and desktop can be found below:
 
 * The Footer
 
-  * The footer section includes links to the relevant social media sites for the site owner; all links open to a new tab to allow easy navigation for the user.     * The footer is valuable to the user as it encourages them to keep connected via social media.
+  * The footer section includes links to the relevant social media sites for the site owner; all links open to a new tab to allow easy navigation for the user.     
+  * The footer is valuable to the user as it encourages them to keep connected via social media.
   * There is also copyright information contained in the footer to remind the user that the site's content is not licence free.
 
     ![Footer](/readme-files/images/footer.png)
@@ -180,14 +181,14 @@ Wireframes for mobile, tablet, and desktop can be found below:
 * Gallery
 
   * The gallery will provide the user with a variety of original illustrations created by the site owner.
-  * This section is valuable to the user as they will be able to clearly see the various illustration styles used by the site owner. 
+  * This section is valuable to the user as it provides a clear representation of the various illustration styles used by the site owner. 
 
     ![Gallery](/readme-files/images/gallery.png)
 
 * Contact Me
 
   * The contact me page will provide a form for the user to submit a message in order to make enquiries or request a commission. 
-  * The user will be asked to submit their name, email address, and a message describing their proposal. 
+  * The user will be asked to submit their name, email address and a message describing their proposal. 
 
     ![Contact Me](/readme-files/images/contact-me.png)
 
@@ -287,7 +288,7 @@ No errors were found but four warnings were highlighted; as these related to the
 &nbsp;
 
 ## Color Contrast
-The color contrast accessibility validator [a11y](https://color.a11y.com/) was used to verify that the colour contrast across the site adhered to the WCAG 2.1 Guidelines.
+The color contrast accessibility validator [a11y](https://color.a11y.com/) was used to verify that the colour contrast across the site adhered to the [WCAG 2.1 Guidelines](https://www.w3.org/TR/WCAG21/).
 
 <details>
 <summary>Homepage</summary>
@@ -335,7 +336,7 @@ The live link can be found [here](https://davecoll3.github.io/kokochen/index.htm
 
 Forking the GitHub Repository makes a copy of the original repository on our GitHub account; allowing us to view and/or make changes without affecting the original repository and can be done by using the following steps.
   1. Log in to GitHub and locate the repository: [kokochen](https://github.com/davecoll3/kokochen).
-  2. Once in the repository, navigate to the Fork button at the top right of the page; just above the settings button on the menu.
+  2. Once in the repository, navigate to the "Fork" button at the top right of the page; just above the settings button on the menu.
   3. You should now have a copy of the original repository in your GitHub account.
 
 &nbsp;
