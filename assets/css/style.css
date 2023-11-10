@@ -64,7 +64,7 @@ hr {
   margin: 1vmin;
 }
 
-#section-sub-heading {
+.section-sub-heading {
   font-size: 27px;
   font-weight: 400;
   margin: 1vmin;
@@ -284,6 +284,10 @@ MEDIA QUERIES
   /* Main Content */
   .main-content p {
     width: 90%;
+  }
+
+  .callout {
+    padding-top: 32vmin;
   }
 }
 
